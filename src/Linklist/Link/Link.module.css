@@ -1,0 +1,55 @@
+.this hr {
+  width: 95%;
+  border-color: var(--mg);
+}
+
+.this li {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+.this li a {
+  color: var(--fg);
+  /* text-align: justify; */
+  /* text-align-last: right; */
+}
+
+.this li a span {
+  background: var(--bg);
+}
+
+.description {
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+.line {
+  flex-grow: 1;
+  height: 0;
+  margin-top: 1ch;
+  border: 1px dashed var(--fg);
+  min-width: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.line::before {
+  content: '';
+  display: block;
+  height: 1rem;
+  width: 0;
+  border: 1px dashed var(--fg);
+  margin-top: -1rem;
+}
+
+.text {
+  text-align: justify;
+  text-align-last: right;
+}
+
+.text span {
+  background-color: var(--bg);
+  color: var(--fg);
+}

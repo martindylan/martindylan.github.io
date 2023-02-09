@@ -1,0 +1,26 @@
+.this {
+  display: inline;
+  padding: 5px 1ch 5px 0;
+}
+
+.this::before {
+  content: "|";
+}
+
+.this::after {
+  content: "|";
+}
+
+.this a {
+  text-decoration: none;
+}
+
+.this a:hover {
+  font-weight: bold;
+  color: var(--fg-col1);
+}
+
+.current {
+  color: var(--fg-col2);
+  user-select: none;
+}

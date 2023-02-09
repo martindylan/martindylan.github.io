@@ -1,0 +1,41 @@
+.this {
+  color: var(--fg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin: 2ch 0 2ch 1.5ch;
+}
+
+.title h1 {
+  background: var(--bg);
+  display: inline-block;
+  width: 7ch;
+}
+
+.block {
+  margin-bottom: 2rem;
+  max-width: 45ch;
+}
+.line {
+  margin: 0;
+  display: block;
+  text-align: center;
+}
+
+.line p {
+  background: var(--bg);
+  display: inline;
+  margin: 0;
+  max-width: 90%;
+}
+
+.this ul {
+  margin: 0;
+  padding: 0;
+}
+.this li {
+  text-align: left;
+}

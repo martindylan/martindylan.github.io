@@ -1,0 +1,40 @@
+.this {
+  color: var(--fg);
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  background: var(--bg);
+  z-index: 99;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0.5rem 0 0.25rem;
+}
+
+@media (min-width:768px) {
+  .links {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.links:first-of-type {
+  flex: 1;
+}
+
+.links:last-of-type {
+  align-items: flex-end;
+}
+
+.links span {
+  margin: 0 0.5rem 0.5rem;
+}
+
+.links img {
+  height: 1.5rem;
+  padding: 0 0.5rem;
+}
