@@ -1,8 +1,0 @@
-.this {
-  color: var(--mg-teal);
-  z-index: -99;
-  position: fixed;
-  top: 0;
-  user-select: none;
-  text-align: justify;
-}
