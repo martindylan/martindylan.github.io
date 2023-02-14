@@ -31,10 +31,18 @@
 }
 
 .links span {
-  margin: 0 0.5rem 0.5rem;
+  align-self: flex-start;
+}
+@media (min-width:768px) {
+  .links span {
+    align-self: center;
+  }
 }
 
 .links img {
   height: 1.5rem;
+}
+
+.links img, .links span {
   padding: 0 0.5rem;
 }
