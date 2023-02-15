@@ -1,6 +1,7 @@
 .this {
   margin: 2ch 0;
   display: flex;
+  justify-content: center;
 }
 
 .this h1 {

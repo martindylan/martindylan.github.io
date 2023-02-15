@@ -6,12 +6,14 @@ import img_granola from './img/granola.png';
 import img_dm7617 from './img/dm7617.png';
 import img_pullme from './img/pullme.png';
 import img_dmtools from './img/dmtools.png';
+import Title from '../../Title/Title';
 import Subtitle from '../../Subtitle/Subtitle';
 import Card from '../../Card/Card';
 
 export default function Audio() {
   return (
     <div className="Audio">
+      <Title>audio</Title>
       <section>
         <Subtitle name="plugins vst3/lv2" />
         <div className="Card-container">

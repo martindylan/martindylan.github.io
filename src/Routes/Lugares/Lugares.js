@@ -7,9 +7,7 @@ import styles from './Lugares.module.css';
 export default function Lugares() {
   return (
     <div className={styles.this}>
-      <Title>
-        lugares increíbles<span className='col1'>♡</span>
-      </Title>
+      <Title>lugares increíbles</Title>
       <Linklist>
         <Link href='https://16colo.rs/' target='_blank' description='galería de gráficos por computadora retro'>16colors</Link>
         <Link href='http://www.jaronlanier.com/agentalien.html' target='_blank' description='texto de jaron lanier'>agents of alienation</Link>

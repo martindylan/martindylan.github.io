@@ -7,9 +7,7 @@ import Link from '../../Linklist/Link/Link';
 export default function Gente() {
   return (
     <div className={styles.this}>
-      <Title>
-        gente increíble<span className='col1'>♡</span>
-      </Title>
+      <Title>gente increíble</Title>
       <Linklist>
         <Link href='https://www.8v01d.com/' target='_blank' description='música y programadora'>8v01d</ Link>
         <Link href='https://www.adelfaure.net/' target='_blank' description='artista ascii y desarrollador de videojuegos'>adel faure</ Link>

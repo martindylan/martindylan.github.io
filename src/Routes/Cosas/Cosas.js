@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from '../../Title/Title';
 import Subtitle from '../../Subtitle/Subtitle';
 import Card from '../../Card/Card';
 import img_heal from './img/heal.jpeg';
@@ -9,7 +10,7 @@ import img_jitazos from './img/jitazos.jpeg';
 export default function Cosas() {
   return (
     <div className='Cosas'>
-
+      <Title>cosas</Title>
       <Subtitle name='js/p5.js/etc' />
       <div className='Card-container'>
         <Card name='ants' link='https://dylanmartin.neocities.org/cosas/ants/' description='implementación de la hormiga de langton' />
