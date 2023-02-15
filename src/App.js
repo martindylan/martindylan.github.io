@@ -1,7 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Head from './Head/Head';
 // ROUTES
 import Inicio from './Routes/Inicio/Inicio';
 import Audio from './Routes/Audio/Audio';
@@ -9,13 +8,18 @@ import Cosas from './Routes/Cosas/Cosas';
 import Gente from './Routes/Gente/Gente';
 import Lugares from './Routes/Lugares/Lugares';
 // COMPONENTS
+import Head from './Head/Head';
 import Foot from './Foot/Foot';
 import Background from './Background/Background';
+import { AppProvider } from './AppProvider';
 
 function App() {
+
   return (
     <div className="App">
-      <Head />
+      <AppProvider>
+        <Head />
+      </AppProvider>
       <main className={'d-flex'}>
         <Routes>
           <Route path='/' element={<Inicio />} />

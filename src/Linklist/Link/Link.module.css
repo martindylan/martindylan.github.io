@@ -13,8 +13,6 @@
 
 .this li a {
   color: var(--fg);
-  /* text-align: justify; */
-  /* text-align-last: right; */
 }
 
 .this li a span {

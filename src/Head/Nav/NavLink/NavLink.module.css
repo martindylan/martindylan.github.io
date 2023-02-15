@@ -13,6 +13,7 @@
 
 .this a {
   text-decoration: none;
+  user-select: none;
 }
 
 .this a:hover {

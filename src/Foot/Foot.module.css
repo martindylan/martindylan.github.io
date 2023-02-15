@@ -41,6 +41,7 @@
 
 .links img {
   height: 1.5rem;
+  user-select: none;
 }
 
 .links img, .links span {
