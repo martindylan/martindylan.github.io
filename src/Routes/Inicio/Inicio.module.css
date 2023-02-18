@@ -39,3 +39,6 @@
 .this li {
   text-align: left;
 }
+.this li span {
+  background: var(--bg);
+}

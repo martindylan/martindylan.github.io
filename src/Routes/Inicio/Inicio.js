@@ -31,13 +31,13 @@ export default function Inicio() {
         <div className={styles.line}>
           <p>fan de:</p>
           <ul>
-            <li>café</li>
-            <li>computadoras</li>
-            <li>listas desordenadas</li>
-            <li>piratería</li>
-            <li>ps2</li>
-            <li>pure data</li>
-            <li>slashers ochentosos</li>
+            <li><span>café</span></li>
+            <li><span>computadoras</span></li>
+            <li><span>listas desordenadas</span></li>
+            <li><span>piratería</span></li>
+            <li><span>ps2</span></li>
+            <li><span>pure data</span></li>
+            <li><span>slashers ochentosos</span></li>
           </ul>
         </div>
       </div>
