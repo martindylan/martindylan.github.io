@@ -22,7 +22,6 @@ const reducer = (state, action) => {
 const AppProvider = ({ children }) => {
 
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log(state.isDropped);
 
   return (
     <AppContext.Provider value={{isDropped: state.isDropped, dispatch}}>
