@@ -13,7 +13,7 @@ export default function Foot({ display }) {
         <div className={styles.links}>
           <a href='https://github.com/martindylan/' target='_blank' rel='noreferrer' ><img src={logoGithub} alt='github'></img></a>
           <a href='https://instagram.com/0.36787944117/' target='_blank' rel='noreferrer'><img src={logoInstagram} alt='instagram'></img></a>
-          <span>dylanmartin1922@gmail.com</span>
+          <div><span>dylanmartin1922@gmail.com</span></div>
         </div>
         <div className={styles.links}>
           <a href='https://dylan-martin.bandcamp.com/' target='_blank' rel='noreferrer'><img src={logoBandcamp} alt='bandcamp'></img></a>

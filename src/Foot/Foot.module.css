@@ -32,6 +32,7 @@
 
 .links span {
   align-self: flex-start;
+  line-height: 1.5rem;
 }
 @media (min-width:768px) {
   .links span {
@@ -45,5 +46,6 @@
 }
 
 .links img, .links span {
+  height: 1.5rem;
   padding: 0 0.5rem;
 }
