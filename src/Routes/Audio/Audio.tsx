@@ -1,4 +1,5 @@
 import React from 'react';
+import img_pmatrix from './img/pmatrix.png';
 import img_mystortion from './img/mystortion.png';
 import img_roads from './img/roads.png';
 import img_polywave from './img/polywave.png';
@@ -15,9 +16,10 @@ export default function Audio() {
     <div className="Audio">
       <Title>audio</Title>
       <section>
-        <Subtitle name="plugins vst3/lv2" />
+        <Subtitle name="plugins vst3" />
         <div className="Card-container">
-          <Card name="mystortion~" link="https://github.com/martindylan/mystortion" description="efecto de distorsión basada en AM" img={img_mystortion} />
+          <Card name="pmatrix~" link="https://github.com/martindylan/pmatrix" description="sintetizador monofónico PM/sustractivo semi-modular" img={img_pmatrix} />
+          <Card name="mystortion~" link="https://github.com/martindylan/mystortion" description="distorsión basada en AM" img={img_mystortion} />
           <Card name="roads~" link="https://github.com/martindylan/roads" description="efecto de audio granular" img={img_roads} />
         </div>
       </section>
