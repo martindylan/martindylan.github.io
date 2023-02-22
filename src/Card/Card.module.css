@@ -14,6 +14,7 @@
   border-top: 0.25rem solid transparent;
   border-bottom: 0.25rem solid transparent;
   box-shadow: none;
+  margin: 0 1rem 1rem;
 }
 
 .card:hover {
