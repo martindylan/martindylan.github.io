@@ -11,15 +11,15 @@ import Lugares from './Routes/Lugares/Lugares';
 import Head from './Head/Head';
 import Foot from './Foot/Foot';
 import Background from './Background/Background';
-import { AppProvider } from './AppProvider';
+import { DropdownProvider } from './DropdownProvider';
 
 function App() {
 
   return (
     <div className="App">
-      <AppProvider>
+      <DropdownProvider>
         <Head />
-      </AppProvider>
+      </DropdownProvider>
       <main className={'d-flex'}>
         <Routes>
           <Route path='/' element={<Inicio />} />

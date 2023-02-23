@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './NavLink.module.css';
 import { Link, useLocation } from 'react-router-dom';
-import { useAppContext } from '../../../AppProvider';
+import { useDropdownContext } from '../../../DropdownProvider';
 
 type Props = {
   name?: string,
@@ -11,13 +11,10 @@ type Props = {
 export default function NavLink(props: Props) {
   const loc = useLocation();
 
-  const {dispatch} = useAppContext();
+  const {drop} = useDropdownContext();
 
   const click = () => {
-    dispatch({
-      type: 'isDropped',
-      value: false
-    });
+    drop(false);
   }
 
   return (

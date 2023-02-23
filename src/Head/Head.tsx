@@ -3,11 +3,13 @@ import styles from './Head.module.css';
 import Nav from './Nav/Nav';
 import Dropdown from './Dropdown/Dropdown';
 import Foot from '../Foot/Foot';
-import { useAppContext } from '../AppProvider';
+import { useDropdownContext } from '../DropdownProvider';
 
 export default function Head() {
   const [dropDisplay, setDropDisplay] = useState("d-none");
-  const { isDropped } = useAppContext();
+  const { isDropped } = useDropdownContext();
+
+  console.log("render head")
 
   useEffect(() => {
     if (isDropped) {

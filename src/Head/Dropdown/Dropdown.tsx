@@ -1,15 +1,12 @@
 import React from 'react';
-import { useAppContext } from '../../AppProvider';
+import { useDropdownContext } from '../../DropdownProvider';
 import './Dropdown.css';
 
 export default function Dropdown() {
-  const { isDropped, dispatch } = useAppContext();
+  const { isDropped, drop } = useDropdownContext();
 
   const click = () => {
-    dispatch({
-      type: 'isDropped',
-      value: !isDropped
-    });
+    drop(!isDropped);
   }
 
   return (
