@@ -30,7 +30,7 @@ export default function Lugares() {
         <Link href='https://neocities.org/' target='_blank' description='creación gratuita de sitios web'>neocities</Link>
         <Link href='http://meiac.es/latino/' target='_blank' description='directorio de netartistas de latinoamérica'>¿netart or notart?</Link>
         <Link href='https://ooh.directory/' target='_blank' description='colección de blogs'>ooh! directory</Link>
-        <Link href='https://www.ps2-home.com/forum/app.php/portal' target='_blank' description='foro de playstation 2'>ps2-home</Link>
+        <Link href='https://www.psx-place.com/forum/app.php/portal' target='_blank' description='foros y recursos de playstation'>psx-place</Link>
         <Link href='https://random.residual.fun/' target='_blank' description='recopilación de arte por computadora'>random</Link>
         <Link href='https://www.soundonsound.com/' target='_blank' description='revista de audio'>sound on sound</Link>
         <Link href='https://vimm.net/' target='_blank' description='roms y emuladores'>vimm's lair</Link>
