@@ -16,6 +16,7 @@ export default function Cosas() {
         <Card name='ants' link='https://dylanmartin.neocities.org/cosas/ants/' description='implementación de la hormiga de langton' />
         <Card name='bubblewrap' link='https://dylanmartin.neocities.org/cosas/bubblewrap/' description='lugar para descansar' />
         <Card name='digitaciones para flauta contrabajo' link='https://dylanmartin.neocities.org/cosas/flauta/' description='herramienta para graficar digitaciones y exportarlas en .png' />
+        <Card name='noted!' link='https://martindylan.github.io/noted' description='web app para tomar notas' />
         <Card name='polygonal waveform demo' link='https://dylanmartin.neocities.org/cosas/polygon/' description='implementación en tone.js del método de síntesis de forma de onda poligonal' />
         <Card name='pincel' link='https://dylanmartin.neocities.org/cosas/pincel/' />
         <Card name='flecos' link='https://editor.p5js.org/teaecetyrannis/full/NCPv1uaMG' description='' />
