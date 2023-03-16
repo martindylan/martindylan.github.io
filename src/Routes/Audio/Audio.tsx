@@ -16,6 +16,12 @@ export default function Audio() {
     <div className="Audio">
       <Title>audio</Title>
       <section>
+        <Subtitle name='web' />
+        <div className='Card-container'>
+          <Card name='polygonal waveform demo' link='https://dylanmartin.neocities.org/cosas/polygon/' description='implementación en tone.js del método de síntesis de forma de onda poligonal' />
+        </div>
+      </section>
+      <section>
         <Subtitle name="plugins vst3" />
         <div className="Card-container">
           <Card name="pmatrix~" link="https://github.com/martindylan/pmatrix" description="sintetizador monofónico PM/sustractivo semi-modular" img={img_pmatrix} />

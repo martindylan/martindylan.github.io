@@ -53,9 +53,6 @@
   display: block;
   max-width: 100%;
   margin: 0 auto 0.5rem;
-  /* padding: 0.5rem 0 1rem; */
-
-  background: var(--fg);
 }
 
 /* DESCRIPTION */
