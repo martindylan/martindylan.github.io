@@ -18,7 +18,7 @@ export default function Audio() {
       <section>
         <Subtitle name='web' />
         <div className='Card-container'>
-          <Card name='polygonal waveform demo' link='https://dylanmartin.neocities.org/cosas/polygon/' description='implementación en tone.js del método de síntesis de forma de onda poligonal' />
+          <Card name='polygonal waveform demo' link='https://dylanmartin.neocities.org/cosas/polygon/' description='implementación en web audio API del método de síntesis de forma de onda poligonal' />
         </div>
       </section>
       <section>
