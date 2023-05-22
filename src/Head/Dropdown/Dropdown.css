@@ -8,11 +8,38 @@
   outline: none;
 }
 
-.Dropdown button .menu, .Dropdown button::before, .Dropdown button::after {
+.Dropdown .buttonContent .menu, .Dropdown .buttonContent::before, .Dropdown .buttonContent::after {
   content: "";
   display: block;
   width: 100%;
   height: 0.2rem;
-  background: #fff;
+  background-color: #fff;
   margin: 0.3rem 0;
+  transition-property: rotate, transform, background-color;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+.Dropdown .buttonContent {
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+
+.Dropdown.dropped .buttonContent {
+  transform: translate(0.45rem, 0);
+}
+
+.Dropdown.dropped .buttonContent .menu {
+  background-color: transparent;
+}
+
+.Dropdown.dropped .buttonContent::before {
+  rotate: 45deg;
+  transform: translateY(0.7rem);
+}
+
+.Dropdown.dropped .buttonContent::after {
+  rotate: -45deg;
+  transform: translateY(-0.7rem);
 }

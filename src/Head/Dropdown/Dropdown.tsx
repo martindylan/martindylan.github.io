@@ -6,13 +6,14 @@ export default function Dropdown() {
   const { isDropped, drop } = useDropdownContext();
 
   const click = () => {
-    drop(!isDropped);
+    drop((prev: Boolean) => !prev);
   }
 
   return (
-    <div className="Dropdown d-flex d-md-none">
+    <div className={`Dropdown d-flex d-md-none ${isDropped && 'dropped'}`}>
       <button onClick={click}>
-        <div className="menu">
+        <div className='buttonContent'>
+          <div className="menu" />
         </div>
       </button>
     </div>
