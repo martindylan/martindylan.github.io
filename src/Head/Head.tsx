@@ -9,8 +9,6 @@ export default function Head() {
   const [dropDisplay, setDropDisplay] = useState("d-none");
   const { isDropped } = useDropdownContext();
 
-  console.log("render head")
-
   useEffect(() => {
     if (isDropped) {
       setDropDisplay("d-flex");
