@@ -41,6 +41,7 @@ export default function Gente() {
         <Link href='https://pombogay.tumblr.com/' target='_blank' description='artista visual'>pombogay</ Link>
         <Link href='https://siminaoprescu.net/' target='_blank' description='música'>simina oprescu</ Link>
         <Link href='https://beacons.ai/sukinapan' target='_blank' description='artista visual y desarrolladora de videojuegos'>sukinapan</ Link>
+        <Link href='https://sites.google.com/view/tamamoyre/' target='_blank' description='artista multimedia, docente e investigadora'>tamara moura costa</ Link>
         <Link href='http://viznut.fi/en/' target='_blank' description='artista demoscene'>viznut</ Link>
         <Link href='https://yesicaduarte.wixsite.com/website' target='_blank' description='artista e investigadora en VR'>yesica duarte</ Link>
       </Linklist>
