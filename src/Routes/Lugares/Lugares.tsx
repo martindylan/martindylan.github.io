@@ -36,6 +36,7 @@ export default function Lugares() {
         <Link href='https://random.residual.fun/' target='_blank' description='recopilación de arte por computadora'>random</Link>
         <Link href='https://sinsy.jp/' target='_blank' description='síntesis de voz cantada online'>sinsy</Link>
         <Link href='https://www.soundonsound.com/' target='_blank' description='revista de audio'>sound on sound</Link>
+        <Link href='https://t3knologialibr3.tumblr.com/' target='_blank' description='difusión sobre electrónica casera y música'>t3knolibr3</Link>
         <Link href='https://vimm.net/' target='_blank' description='roms y emuladores'>vimm's lair</Link>
         <Link href='https://www.wendycarlos.com/' target='_blank' description='fuente oficial de información sobre wendy carlos'>wendy carlos</ Link>
       </Linklist>
