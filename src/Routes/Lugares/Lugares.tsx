@@ -3,11 +3,13 @@ import Title from '../../Title/Title';
 import Linklist from '../../Linklist/Linklist';
 import Link from '../../Linklist/Link/Link';
 import styles from './Lugares.module.css';
+import SmallTitle from '../../SmallTitle/SmallTitle';
 
 export default function Lugares() {
   return (
     <div className={styles.this}>
       <Title>lugares increíbles</Title>
+      <SmallTitle>que encontré hurgando en internet</SmallTitle>
       <Linklist>
         <Link href='https://16colo.rs/' target='_blank' description='galería de gráficos por computadora retro'>16colors</Link>
         <Link href='http://www.jaronlanier.com/agentalien.html' target='_blank' description='texto de jaron lanier'>agents of alienation</Link>
@@ -36,7 +38,7 @@ export default function Lugares() {
         <Link href='https://random.residual.fun/' target='_blank' description='recopilación de arte por computadora'>random</Link>
         <Link href='https://sinsy.jp/' target='_blank' description='síntesis de voz cantada online'>sinsy</Link>
         <Link href='https://www.soundonsound.com/' target='_blank' description='revista de audio'>sound on sound</Link>
-        <Link href='https://t3knologialibr3.tumblr.com/' target='_blank' description='difusión sobre electrónica casera y música'>t3knolibr3</Link>
+        <Link href='https://t3knologialibr3.tumblr.com/' target='_blank' description='difusora chilena sobre electrónica casera y música'>t3knolibr3</Link>
         <Link href='https://vimm.net/' target='_blank' description='roms y emuladores'>vimm's lair</Link>
         <Link href='https://www.wendycarlos.com/' target='_blank' description='fuente oficial de información sobre wendy carlos'>wendy carlos</ Link>
       </Linklist>
