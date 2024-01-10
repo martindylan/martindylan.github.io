@@ -13,8 +13,6 @@ export default function Lugares() {
       <Linklist>
         <Link href='https://16colo.rs/' target='_blank' description='galería de gráficos por computadora retro'>16colors</Link>
         <Link href='http://www.jaronlanier.com/agentalien.html' target='_blank' description='texto de jaron lanier'>agents of alienation</Link>
-        <Link href='https://amigosdelalima.bandcamp.com/' target='_blank' description='sello de música electrónica'>amigos de la lima</Link>
-        <Link href='http://am-linux.ml' target='_blank' description='información sobre software de audio en linux'>audio-música linux</Link>
         <Link href='https://battleofthebits.org/' target='_blank' description='foro y competencias de música por computadora retro'>battle of the bits</Link>
         <Link href='https://bsblork.gitlab.io/' target='_blank' description='orquesta de laptops de brasilia'>bsblork</Link>
         <Link href='https://www.cameronsworld.net/' target='_blank' description='collage web '>cameron's world</Link>
@@ -27,6 +25,7 @@ export default function Lugares() {
         <Link href='https://femalelaptoporchestra.wordpress.com/' target='_blank' description='female laptop orchestra'>flo</Link>
         <Link href='https://gifcities.org/' target='_blank' description='motor de búsqueda de gifs'>gifcities</Link>
         <Link href='https://news.ycombinator.com/' target='_blank' description='noticias en computación'>hacker news</Link>
+        <Link href='https://huemint.com/' target='_blank' description='movimiento artístico cordobés de resistencia antifascista'>hadas antifa</Link>
         <Link href='https://16colo.rs/group/hermanas%20del%20perro%20magnetico' target='_blank' description='crew de arte texto latinoamericana'>hermanas del perro magnético</Link>
         <Link href='https://huemint.com/' target='_blank' description='generador de paletas de colores'>huemint</Link>
         <Link href='http://linux-sound.org/' target='_blank' description='compilado de software de audio para linux'>linux sound</Link>
