@@ -31,9 +31,9 @@ export default function Inicio() {
         <div className={styles.line}>
           <p>fan de:</p>
           <ul>
-            <li><span>café</span></li>
             <li><span>computadoras</span></li>
             <li><span>listas desordenadas</span></li>
+            <li><span>mate</span></li>
             <li><span>piratería</span></li>
             <li><span>ps2</span></li>
             <li><span>pure data</span></li>
