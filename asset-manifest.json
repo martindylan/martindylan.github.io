@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f75a512.css",
-    "main.js": "/static/js/main.aa2b909c.js",
+    "main.js": "/static/js/main.7f049f8b.js",
     "static/js/787.64b679e0.chunk.js": "/static/js/787.64b679e0.chunk.js",
     "static/media/granola.png": "/static/media/granola.dd8019862a39fc378f7e.png",
     "static/media/pmatrix.png": "/static/media/pmatrix.694fb550ace6793eb710.png",
@@ -14,20 +14,17 @@
     "static/media/jitazos.jpeg": "/static/media/jitazos.1590a4debb29f6d6ff18.jpeg",
     "static/media/logo-bandcamp.png": "/static/media/logo-bandcamp.f69a0e9c2fceb756899e.png",
     "static/media/dreamyplaces.jpeg": "/static/media/dreamyplaces.04dfb8a540704cbf6bcf.jpeg",
-    "static/media/logo-spotify.png": "/static/media/logo-spotify.8df6fd589ef069d8e95d.png",
-    "static/media/logo-youtube.png": "/static/media/logo-youtube.f1e1e88d24443293f19f.png",
     "static/media/logo-instagram.png": "/static/media/logo-instagram.59fdb4a0d1f1d82743db.png",
     "static/media/polywave.png": "/static/media/polywave.ddb34fea9426484be172.png",
     "static/media/logo-github.png": "/static/media/logo-github.9b74c0c7e0370f96fbc4.png",
-    "static/media/logo-email.png": "/static/media/logo-email.c5cb36fbc3be4b284935.png",
     "static/media/pullme.png": "/static/media/pullme.12c7634d22fe22235bd5.png",
     "index.html": "/index.html",
     "main.0f75a512.css.map": "/static/css/main.0f75a512.css.map",
-    "main.aa2b909c.js.map": "/static/js/main.aa2b909c.js.map",
+    "main.7f049f8b.js.map": "/static/js/main.7f049f8b.js.map",
     "787.64b679e0.chunk.js.map": "/static/js/787.64b679e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0f75a512.css",
-    "static/js/main.aa2b909c.js"
+    "static/js/main.7f049f8b.js"
   ]
 }
