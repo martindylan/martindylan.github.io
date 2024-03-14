@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2c5808a.css",
-    "main.js": "/static/js/main.6106c87c.js",
+    "main.js": "/static/js/main.4425f32c.js",
     "static/js/787.64b679e0.chunk.js": "/static/js/787.64b679e0.chunk.js",
     "static/media/granola.png": "/static/media/granola.dd8019862a39fc378f7e.png",
     "static/media/pmatrix.png": "/static/media/pmatrix.694fb550ace6793eb710.png",
@@ -12,6 +12,7 @@
     "static/media/dm7617.png": "/static/media/dm7617.0867b658242567762d32.png",
     "static/media/heal.jpeg": "/static/media/heal.e25fc0d642070379958a.jpeg",
     "static/media/jitazos.jpeg": "/static/media/jitazos.1590a4debb29f6d6ff18.jpeg",
+    "static/media/logo-bandcamp.png": "/static/media/logo-bandcamp.f69a0e9c2fceb756899e.png",
     "static/media/dreamyplaces.jpeg": "/static/media/dreamyplaces.04dfb8a540704cbf6bcf.jpeg",
     "static/media/logo-instagram.png": "/static/media/logo-instagram.59fdb4a0d1f1d82743db.png",
     "static/media/polywave.png": "/static/media/polywave.ddb34fea9426484be172.png",
@@ -19,11 +20,11 @@
     "static/media/pullme.png": "/static/media/pullme.12c7634d22fe22235bd5.png",
     "index.html": "/index.html",
     "main.a2c5808a.css.map": "/static/css/main.a2c5808a.css.map",
-    "main.6106c87c.js.map": "/static/js/main.6106c87c.js.map",
+    "main.4425f32c.js.map": "/static/js/main.4425f32c.js.map",
     "787.64b679e0.chunk.js.map": "/static/js/787.64b679e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2c5808a.css",
-    "static/js/main.6106c87c.js"
+    "static/js/main.4425f32c.js"
   ]
 }
