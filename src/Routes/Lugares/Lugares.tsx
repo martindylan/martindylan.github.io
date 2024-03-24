@@ -11,7 +11,6 @@ export default function Lugares() {
       <Title>lugares increíbles</Title>
       <SmallTitle>que encontré hurgando en internet</SmallTitle>
       <Linklist>
-        <Link href='https://16colo.rs/' target='_blank' description='galería de gráficos por computadora retro'>16colors</Link>
         <Link href='http://www.jaronlanier.com/agentalien.html' target='_blank' description='texto de jaron lanier'>agents of alienation</Link>
         <Link href='https://battleofthebits.org/' target='_blank' description='foro y competencias de música por computadora retro'>battle of the bits</Link>
         <Link href='https://bsblork.gitlab.io/' target='_blank' description='orquesta de laptops de brasilia'>bsblork</Link>
@@ -25,7 +24,7 @@ export default function Lugares() {
         <Link href='https://femalelaptoporchestra.wordpress.com/' target='_blank' description='female laptop orchestra'>flo</Link>
         <Link href='https://gifcities.org/' target='_blank' description='motor de búsqueda de gifs'>gifcities</Link>
         <Link href='https://news.ycombinator.com/' target='_blank' description='noticias en computación'>hacker news</Link>
-        <Link href='https://huemint.com/' target='_blank' description='movimiento artístico cordobés de resistencia antifascista'>hadas antifa</Link>
+        <Link href='https://linktr.ee/hadas_antifa' target='_blank' description='movimiento artístico cordobés de resistencia antifascista'>hadas antifa</Link>
         <Link href='https://16colo.rs/group/hermanas%20del%20perro%20magnetico' target='_blank' description='crew de arte texto latinoamericana'>hermanas del perro magnético</Link>
         <Link href='https://huemint.com/' target='_blank' description='generador de paletas de colores'>huemint</Link>
         <Link href='http://linux-sound.org/' target='_blank' description='compilado de software de audio para linux'>linux sound</Link>

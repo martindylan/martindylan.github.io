@@ -36,6 +36,7 @@ export default function Gente() {
         <Link href='https://www.linusakesson.net/index.php' target='_blank' description='músico, luthier y programador'>linus åkesson</Link>
         <Link href='https://marianneteixido.github.io/' target='_blank' description='artista multimedia y programadora'>marianne teixidó</Link>
         <Link href='https://half-half.es/' target='_blank' description='música y artista multimedia'>merche blasco</Link>
+        <Link href='https://monicajacobo.myportfolio.com/' target='_blank' description='artista visual y multimedia'>mónica jacobo</Link>
         <Link href='https://ojack.xyz/' target='_blank' description='artista multimedia y programadora'>olivia jack</Link>
         <Link href='http://www.patriciagarcia.com.ar/' target='_blank' description='música y docente'>patricia garcía</Link>
         <Link href='https://www.paweljanicki.jp/' target='_blank' description='músico'>pawel janicki</Link>
