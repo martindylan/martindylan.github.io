@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 // ROUTES
 import Inicio from './Routes/Inicio/Inicio';
-import Audio from './Routes/Audio/Audio';
 import Cosas from './Routes/Cosas/Cosas';
 import Portafolio from './Routes/Portafolio/Portafolio'
 import Gente from './Routes/Gente/Gente';
@@ -25,8 +24,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/portafolio' element={<Portafolio />} />
-          {/* <Route path='/audio' element={<Audio />} />
-          <Route path='/cosas' element={<Cosas />} /> */}
+          {/* <Route path='/audio' element={<Audio />} /> */}
+          <Route path='/cosas' element={<Cosas />} />
           <Route path='/gente' element={<Gente />} />
           <Route path='/lugares' element={<Lugares />} />
         </Routes>

@@ -9,10 +9,6 @@
   z-index: -1;
 }
 
-.line.green {
-  background: var(--fg-col2);
-}
-
 .name {
   margin-bottom: 2ch;
   margin-left: 1rem;
@@ -25,7 +21,7 @@
   padding: 0 0.5rem 0.125rem 0.25rem;
   border: 2px solid var(--fg-col1);
   border-top: 3px solid var(--bg);
-  border-bottom-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.25rem;
 
   background: var(--bg);
   color: var(--fg);
