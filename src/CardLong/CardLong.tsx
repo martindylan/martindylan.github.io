@@ -32,9 +32,11 @@ export default function Card(props: Props) {
                   );
                 })}
               </div>
-              <div className={styles.foot}>
-                <span>{props.foot}</span>
-              </div>
+              {props.foot &&
+                <div className={styles.foot}>
+                  <span>• {props.foot}</span>
+                </div>
+              }
             </div>
           </div>
         </div>
