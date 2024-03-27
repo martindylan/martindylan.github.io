@@ -1,4 +1,4 @@
-.Subtitle .line {
+.line {
   height: 2px;
 
   margin: 0;
@@ -9,12 +9,16 @@
   z-index: -1;
 }
 
-.Subtitle .name {
+.line.green {
+  background: var(--fg-col2);
+}
+
+.name {
   margin-bottom: 2ch;
   margin-left: 1rem;
 }
 
-.Subtitle .name h1 {
+.name h1 {
   display: inline-block;
 
   margin: 0;
@@ -27,6 +31,6 @@
   color: var(--fg);
 }
 
-.Subtitle .name span {
+.name span {
   color: var(--fg-col2);
 }

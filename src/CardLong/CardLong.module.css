@@ -1,0 +1,120 @@
+.this {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.this.right {
+  justify-content: flex-end;
+}
+
+.this a {
+  text-decoration: none;
+  padding: 0;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .this a {
+    width: unset;
+  }
+}
+
+/* CARD */
+.card {
+  padding: 0.75rem;
+  box-shadow: none;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  user-select: none;
+  text-align: left;
+  border-top: 0.25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
+  box-shadow: none;
+  /* margin: 0 1rem 1rem; */
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+  }
+  .card.right {
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+}
+
+.card.linked:hover {
+  border-top: 0.25rem solid var(--fg-col1);
+  border-bottom: 0.25rem solid var(--fg-col1);
+  box-shadow: 0 0 0.4rem var(--fg-col1) inset;
+  transition: 75ms;
+}
+
+.card.linked:not(:hover) {
+  border-top: 0.25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
+  box-shadow: none;
+  transition: 150ms;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.container.right {
+  align-items: flex-end;
+}
+
+/* TITLE */
+.name {
+  margin-bottom: 1.5rem;
+}
+
+.name h2 {
+  display: inline;
+  background: var(--bg);
+  color: var(--fg);
+  text-decoration: underline double 1px;
+}
+
+.name,
+.description {
+  max-width: 70ch;
+}
+
+/* IMAGE */
+.this img {
+  max-width: 24rem;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.body.right {
+  align-items: flex-end;
+}
+
+/* DESCRIPTION */
+.description {
+  display: inline-block;
+}
+
+.description span, .foot span {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.foot span {
+  font-style: italic;
+}

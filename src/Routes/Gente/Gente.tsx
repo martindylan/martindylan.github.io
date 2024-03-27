@@ -17,7 +17,7 @@ export default function Gente() {
         <Link href='http://www.basilio-delboca.ar/' target='_blank' description='músico, programador y docente'>basilio del boca</Link>
         <Link href='https://carolinavillanuevalucero.net/' target='_blank' description='artista plástica y web'>carolina villanueva lucero</Link>
         <Link href='http://cassiemcquater.com/' target='_blank' description='artista multimedia y web'>cassie mcquater</Link>
-        <Link href='http://cyranetic.github.io/cyranetic-portfolio-site/index.html' target='_blank' description='artista visual'>cyranetic</Link>
+        {/* <Link href='http://cyranetic.github.io/cyranetic-portfolio-site/index.html' target='_blank' description='artista visual'>cyranetic</Link> */}
         <Link href='https://danieliglesia.com/' target='_blank' description='músico y programador'>daniel iglesia</Link>
         <Link href='https://dillonbastan.com/' target='_blank' description='músico y programador'>dillon bastan</Link>
         <Link href='https://durante.neocities.org/' target='_blank' description='músico'>durante</Link>

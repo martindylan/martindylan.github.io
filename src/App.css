@@ -35,6 +35,11 @@
   margin-bottom: 1.5rem;
 }
 
+.CardLong-container {
+  display: block;
+  /* margin-bottom: 1.5rem; */
+}
+
 .link-regular {
   color: var(--fg);
 }
@@ -53,4 +58,8 @@
   .d-md-none {
     display: none;
   }
+}
+
+hr {
+  border-color: var(--mg);
 }

@@ -5,6 +5,7 @@ import './App.css';
 import Inicio from './Routes/Inicio/Inicio';
 import Audio from './Routes/Audio/Audio';
 import Cosas from './Routes/Cosas/Cosas';
+import Portafolio from './Routes/Portafolio/Portafolio'
 import Gente from './Routes/Gente/Gente';
 import Lugares from './Routes/Lugares/Lugares';
 // COMPONENTS
@@ -23,8 +24,9 @@ function App() {
       <main className={'d-flex'}>
         <Routes>
           <Route path='/' element={<Inicio />} />
-          <Route path='/audio' element={<Audio />} />
-          <Route path='/cosas' element={<Cosas />} />
+          <Route path='/portafolio' element={<Portafolio />} />
+          {/* <Route path='/audio' element={<Audio />} />
+          <Route path='/cosas' element={<Cosas />} /> */}
           <Route path='/gente' element={<Gente />} />
           <Route path='/lugares' element={<Lugares />} />
         </Routes>
