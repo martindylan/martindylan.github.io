@@ -31,7 +31,7 @@
   border-top: 0.25rem solid transparent;
   border-bottom: 0.25rem solid transparent;
   box-shadow: none;
-  /* margin: 0 1rem 1rem; */
+  margin: 0 1rem;
 }
 
 @media (min-width: 768px) {
@@ -42,20 +42,21 @@
     text-align: right;
     flex-direction: row-reverse;
   }
-}
 
-.card.linked:hover {
-  border-top: 0.25rem solid var(--fg-col1);
-  border-bottom: 0.25rem solid var(--fg-col1);
-  box-shadow: 0 0 0.4rem var(--fg-col1) inset;
-  transition: 75ms;
-}
-
-.card.linked:not(:hover) {
-  border-top: 0.25rem solid transparent;
-  border-bottom: 0.25rem solid transparent;
-  box-shadow: none;
-  transition: 150ms;
+  .card.linked:hover {
+    border-top: 0.25rem solid var(--fg-col1);
+    border-bottom: 0.25rem solid var(--fg-col1);
+    box-shadow: 0 0 0.4rem var(--fg-col1) inset;
+    margin: 0 2rem;
+    transition: 150ms;
+  }
+  
+  .card.linked:not(:hover) {
+    border-top: 0.25rem solid transparent;
+    border-bottom: 0.25rem solid transparent;
+    box-shadow: none;
+    transition: 75ms;
+  }
 }
 
 .container {
