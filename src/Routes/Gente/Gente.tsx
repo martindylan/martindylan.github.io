@@ -31,7 +31,7 @@ export default function Gente() {
         <Link href='https://jeonghopark.de/' target='_blank' description='artista audiovisual y programador'>jeongho park</Link>
         <Link href='https://zhaojw1998.github.io/' target='_blank' description='músico e investigador en ML'>jingwei zhao</Link>
         <Link href='https://juliateles.com/' target='_blank' description='música y artista multimedia'>julia teles</Link>
-        <Link href='https://karen-pal.github.io/' target='_blank' description='VJ y programadora'>karen palacios</Link>
+        <Link href='https://karen-pal.github.io/about' target='_blank' description='VJ y programadora'>karen palacios</Link>
         <Link href='https://www.lauralunacastillo.net/' target='_blank' description='artista multimedia'>laura castillo</Link>
         <Link href='https://leorina.bandcamp.com/' target='_blank' description='música'>leorina</Link>
         <Link href='https://www.linusakesson.net/index.php' target='_blank' description='músico, luthier y programador'>linus åkesson</Link>
