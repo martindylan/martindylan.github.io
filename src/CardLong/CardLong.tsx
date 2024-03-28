@@ -14,17 +14,17 @@ export default function Card(props: Props) {
   return (
     <div className={`${styles.this} ${props.right ? styles.right : ''}`}>
       <a
-        className={`${props.link ? styles.linked : ''} ${props.right ? styles.right : ''}`}
+        className={`${props.link ? styles.linked : ''}`}
         href={props.link}
         target='_blank'
         rel='noreferrer'
       >
         {props.img && <img src={props.img} alt='' />}
-        <div className={`${styles.container} ${props.right ? styles.right : ''}`}>
+        <div className={styles.container}>
           <div className={styles.name}>
             <h2>{props.name}</h2>
           </div>
-          <div className={`${styles.body} ${props.right ? styles.right : ''}`}>
+          <div className={styles.body}>
             <div className={styles.description}>
               {props.description.map((item: string, i: number) => {
                 return (
