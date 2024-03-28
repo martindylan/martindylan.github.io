@@ -12,7 +12,7 @@ export default function Card(props: Props) {
   return (
     <div className={styles.this}>
       <a href={props.link} target='_blank' rel='noreferrer'>
-        <div className={styles.card}>
+        {/* <div className={styles.card}> */}
           <div className={styles.name}>
             <h2>{props.name}</h2>
           </div>
@@ -20,7 +20,7 @@ export default function Card(props: Props) {
           <div className={styles.description}>
             <span>{props.description}</span>
           </div>
-        </div>
+        {/* </div> */}
       </a>
     </div>
   )

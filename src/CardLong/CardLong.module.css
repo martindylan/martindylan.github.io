@@ -12,6 +12,7 @@
   padding: 0;
   width: 100%;
 }
+
 @media (min-width: 768px) {
   .this a {
     width: unset;
@@ -19,7 +20,7 @@
 }
 
 /* CARD */
-.card {
+.this a {
   padding: 0.75rem;
   box-shadow: none;
   border-radius: 1rem;
@@ -35,27 +36,31 @@
 }
 
 @media (min-width: 768px) {
-  .card {
+  .this a {
     flex-direction: row;
   }
-  .card.right {
+
+  .this a.right {
     text-align: right;
     flex-direction: row-reverse;
   }
 
-  .card.linked:hover {
+  .this a.linked:hover, .this a.linked:focus {
     border-top: 0.25rem solid var(--fg-col1);
     border-bottom: 0.25rem solid var(--fg-col1);
     box-shadow: 0 0 0.4rem var(--fg-col1) inset;
     margin: 0 2rem;
-    transition: 150ms;
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
   }
   
-  .card.linked:not(:hover) {
+  .this a.linked:not(:hover):not(:focus) {
     border-top: 0.25rem solid transparent;
     border-bottom: 0.25rem solid transparent;
     box-shadow: none;
-    transition: 75ms;
+    margin: 0 1rem;
+    transition-duration: 50ms;
+    transition-timing-function: linear;
   }
 }
 
@@ -111,7 +116,8 @@
   display: inline-block;
 }
 
-.description span, .foot span {
+.description span,
+.foot span {
   background: var(--bg);
   color: var(--fg);
 }
