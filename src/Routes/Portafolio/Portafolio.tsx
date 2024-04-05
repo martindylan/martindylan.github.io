@@ -23,7 +23,7 @@ export default function Cosas() {
               `Desarrollado en equipo utilizando Unreal Engine, intercomunicado con diversos softwares de audio vía OSC y utilizando tecnología de Realidad Virtual.`,
               `Actualmente sigue en desarrollo.`
             ]}
-            foot='Universidad Nacional de Córdoba – Argentina, 31 de mayo 2023'
+            foot='LEIM – Universidad Nacional de Córdoba – Argentina, 31 de mayo 2023'
           />
         </div>
 
@@ -35,7 +35,7 @@ export default function Cosas() {
             description={[
               `Proyecto transdisciplinario (danza, música, gráficos y programación) coproducido con Francisco Gonella Fava. Reconocimiento de gestos con Kinect V2 y síntesis de imagen en TouchDesigner, dispositivos de audio para la generación de música en tiempo real en Pure Data.`
             ]}
-            foot='Universidad Nacional de Córdoba – Argentina, 16 de noviembre 2023'
+            foot='LEIM – Universidad Nacional de Córdoba – Argentina, 16 de noviembre 2023'
           />
         </div>
 
