@@ -47,6 +47,12 @@ export default function Inicio() {
           </ul>
         </div>
       </div>
+      <div className={styles.block}>
+        <div className={styles.line}>
+          <div> _/</div>
+          <div>(_)</div>
+        </div>
+      </div>
     </div>
   )
 }
