@@ -155,17 +155,18 @@ export default function Lugares() {
     <div className={styles.this}>
       <Title>lugares increíbles</Title>
       <SmallTitle>que encontré hurgando en internet</SmallTitle>
-      <button
-        className='smallButton'
-        onClick={(e) => {
-          e.stopPropagation();
-          const index = Math.floor(Math.random() * list.length);
-          window.open(list[index].href, '_blank');
-        }}
-      >
-        VISITA RANDOM!
-      </button>
       <Linklist>
+        <button
+          className='smallButton'
+          onClick={(e) => {
+            e.stopPropagation();
+            const index = Math.floor(Math.random() * list.length);
+            window.open(list[index].href, '_blank');
+          }}
+        >
+          VISITA RANDOM!
+        </button>
+
         {orderedList.map((item, i) => (
           <Link key={i} href={item.href} description={item.description} target='_blank'>{item.title}</Link>
         ))}

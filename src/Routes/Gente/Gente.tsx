@@ -200,22 +200,23 @@ const list = [
 
 export default function Gente() {
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
-  
+
   return (
     <div className={styles.this}>
       <Title>gente increíble</Title>
       <SmallTitle>que me crucé en la vida y en internet</SmallTitle>
-      <button
-        className='smallButton'
-        onClick={(e) => {
-          e.stopPropagation();
-          const index = Math.floor(Math.random() * list.length);
-          window.open(list[index].href, '_blank');
-        }}
-      >
-        VISITA RANDOM!
-      </button>
       <Linklist>
+        <button
+          className='smallButton'
+          onClick={(e) => {
+            e.stopPropagation();
+            const index = Math.floor(Math.random() * list.length);
+            window.open(list[index].href, '_blank');
+          }}
+        >
+          VISITA RANDOM!
+        </button>
+
         {orderedList.map((item, i) => (
           <Link key={i} href={item.href} description={item.description} target='_blank'>{item.title}</Link>
         ))}
