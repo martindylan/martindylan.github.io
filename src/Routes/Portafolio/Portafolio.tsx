@@ -5,6 +5,7 @@ import gest from './img/gest.jpeg';
 import raytone from './img/raytone.jpeg';
 import anhelo from './img/anhelo.jpeg';
 import puredata from './img/puredata.jpeg';
+import presupuesto from './img/presupuesto.jpeg'
 
 export default function Cosas() {
   return (
@@ -88,6 +89,7 @@ export default function Cosas() {
           <CardLong
             right
             name='Paisaje sonoro de las festividades por la coronación de Carlos IV'
+            img={presupuesto}
             description={[
               `Pieza creada junto a Basilio del Boca a partir de una reconstrucción histórica en torno a la celebración de la coronación de Carlos IV en Buenos Aires, a exponerse junto a un documento de la época donde se designa el presupuesto para dichas festividades.`,
               `Coordinación y asesoramiento general: Clarisa Pedrotti.`
