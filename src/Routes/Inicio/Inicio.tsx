@@ -21,9 +21,6 @@ export default function Inicio() {
           <p>programo, diseño sonidos</p>
         </div>
         <div className={styles.line}>
-          <p>juego jueguitos</p>
-        </div>
-        <div className={styles.line}>
           <p>me gustaría hacer jueguitos</p>
         </div>
       </div>
