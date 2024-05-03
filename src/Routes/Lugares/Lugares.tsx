@@ -5,40 +5,170 @@ import Link from '../../Linklist/Link/Link';
 import styles from './Lugares.module.css';
 import SmallTitle from '../../SmallTitle/SmallTitle';
 
+const list = [
+  {
+    title: `agents of alienation`,
+    description: `texto de jaron lanier`,
+    href: `http://www.jaronlanier.com/agentalien.html`
+  },
+  {
+    title: `battle of the bits`,
+    description: `foro y competencias de música por computadora retro`,
+    href: `https://battleofthebits.com/`
+  },
+  {
+    title: `bsblork`,
+    description: `orquesta de laptops de brasilia`,
+    href: `https://bsblork.gitlab.io/`
+  },
+  {
+    title: `cameron's world`,
+    description: `collage web`,
+    href: `https://www.cameronsworld.net/`
+  },
+  {
+    title: `caso`,
+    description: `centro de arte sonoro (argentina)`,
+    href: `https://centrodeartesonoro.cultura.gob.ar/info/centro-de-arte-sonoro-caso/`
+  },
+  {
+    title: `cmmas`,
+    description: `centro mexicano para la música y las artes sonoras`,
+    href: `https://en.cmmas.com/`
+  },
+  {
+    title: `comedy on the wall`,
+    description: `?`,
+    href: `https://comedyonthewall-n4.tripod.com/`
+  },
+  {
+    title: `elevator.js`,
+    description: `"jueguito" web`,
+    href: `https://tholman.com/elevator.js/`
+  },
+  {
+    title: `fakedac~`,
+    description: `evento de live coding y arte algorítmica`,
+    href: `https://fakedac.net/`
+  },
+  {
+    title: `fauux`,
+    description: `?`,
+    href: `https://fauux.neocities.org/`
+  },
+  {
+    title: `flo`,
+    description: `female laptop orchestra`,
+    href: `https://femalelaptoporchestra.wordpress.com/`
+  },
+  {
+    title: `gifcities`,
+    description: `motor de búsqueda de gifs`,
+    href: `https://gifcities.org/`
+  },
+  {
+    title: `hacker news`,
+    description: `noticias en computación`,
+    href: `https://news.ycombinator.com/`
+  },
+  {
+    title: `hadas antifa`,
+    description: `movimiento artístico cordobés de resistencia antifascista`,
+    href: `https://linktr.ee/hadas_antifa`
+  },
+  {
+    title: `hermanas del perro magnético`,
+    description: `crew de arte texto latinoamericana`,
+    href: `https://16colo.rs/group/hermanas%20del%20perro%20magnetico`
+  },
+  {
+    title: `huemint`,
+    description: `generador de paletas de colores`,
+    href: `https://huemint.com/`
+  },
+  {
+    title: `linux sound`,
+    description: `compilado de software de audio para linux`,
+    href: `http://linux-sound.org/`
+  },
+  {
+    title: `marginalia search`,
+    description: `motor de búsqueda independiente`,
+    href: `https://search.marginalia.nu/`
+  },
+  {
+    title: `neocities`,
+    description: `creación gratuita de sitios web`,
+    href: `https://neocities.org/`
+  },
+  {
+    title: `¿netart or notart?`,
+    description: `directorio de netartistas de latinoamérica`,
+    href: `http://meiac.es/latino/`
+  },
+  {
+    title: `ooh! directory`,
+    description: `colección de blogs`,
+    href: `https://ooh.directory/`
+  },
+  {
+    title: `psx-place`,
+    description: `foros y recursos de playstation`,
+    href: `https://www.psx-place.com/forum/app.php/portal`
+  },
+  {
+    title: `random`,
+    description: `recopilación de arte por computadora`,
+    href: `https://random.residual.fun/`
+  },
+  {
+    title: `sinsy`,
+    description: `síntesis de voz cantada online`,
+    href: `https://sinsy.jp/`
+  },
+  {
+    title: `sound on sound`,
+    description: `revista de audio`,
+    href: `https://www.soundonsound.com/`
+  },
+  {
+    title: `t3knolibr3`,
+    description: `difusora chilena sobre electrónica casera y música`,
+    href: `https://t3knologialibr3.tumblr.com/`
+  },
+  {
+    title: `vimm's lair`,
+    description: `roms y emuladores`,
+    href: `https://vimm.net/`
+  },
+  {
+    title: `wendy carlos`,
+    description: `fuente oficial de información sobre wendy carlos`,
+    href: `https://www.wendycarlos.com/`
+  },
+]
+
 export default function Lugares() {
+  const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
+
   return (
     <div className={styles.this}>
       <Title>lugares increíbles</Title>
       <SmallTitle>que encontré hurgando en internet</SmallTitle>
+      <button
+        className='smallButton'
+        onClick={(e) => {
+          e.stopPropagation();
+          const index = Math.floor(Math.random() * list.length);
+          window.open(list[index].href, '_blank');
+        }}
+      >
+        VISITA RANDOM!
+      </button>
       <Linklist>
-        <Link href='http://www.jaronlanier.com/agentalien.html' target='_blank' description='texto de jaron lanier'>agents of alienation</Link>
-        <Link href='https://battleofthebits.org/' target='_blank' description='foro y competencias de música por computadora retro'>battle of the bits</Link>
-        <Link href='https://bsblork.gitlab.io/' target='_blank' description='orquesta de laptops de brasilia'>bsblork</Link>
-        <Link href='https://www.cameronsworld.net/' target='_blank' description='collage web '>cameron's world</Link>
-        <Link href='https://centrodeartesonoro.cultura.gob.ar/info/centro-de-arte-sonoro-caso/' target='_blank' description='centro de arte sonoro (argentina)'>caso</Link>
-        <Link href='https://en.cmmas.com/' target='_blank' description='centro mexicano para la música y las artes sonoras'>cmmas</Link>
-        <Link href='https://comedyonthewall-n4.tripod.com/' target='_blank' description='?'>comedy on the wall</Link>
-        <Link href='https://tholman.com/elevator.js/' target='_blank' description='"jueguito" web'>elevator.js</Link>
-        <Link href='https://fakedac.net/' target='_blank' description='evento de live coding y arte algorítmica'>fakedac~</Link>
-        <Link href='https://fauux.neocities.org/' target='_blank' description='?'>fauux</Link>
-        <Link href='https://femalelaptoporchestra.wordpress.com/' target='_blank' description='female laptop orchestra'>flo</Link>
-        <Link href='https://gifcities.org/' target='_blank' description='motor de búsqueda de gifs'>gifcities</Link>
-        <Link href='https://news.ycombinator.com/' target='_blank' description='noticias en computación'>hacker news</Link>
-        <Link href='https://linktr.ee/hadas_antifa' target='_blank' description='movimiento artístico cordobés de resistencia antifascista'>hadas antifa</Link>
-        <Link href='https://16colo.rs/group/hermanas%20del%20perro%20magnetico' target='_blank' description='crew de arte texto latinoamericana'>hermanas del perro magnético</Link>
-        <Link href='https://huemint.com/' target='_blank' description='generador de paletas de colores'>huemint</Link>
-        <Link href='http://linux-sound.org/' target='_blank' description='compilado de software de audio para linux'>linux sound</Link>
-        <Link href='https://search.marginalia.nu/' target='_blank' description='motor de búsqueda independiente'>marginalia search</Link>
-        <Link href='https://neocities.org/' target='_blank' description='creación gratuita de sitios web'>neocities</Link>
-        <Link href='http://meiac.es/latino/' target='_blank' description='directorio de netartistas de latinoamérica'>¿netart or notart?</Link>
-        <Link href='https://ooh.directory/' target='_blank' description='colección de blogs'>ooh! directory</Link>
-        <Link href='https://www.psx-place.com/forum/app.php/portal' target='_blank' description='foros y recursos de playstation'>psx-place</Link>
-        <Link href='https://random.residual.fun/' target='_blank' description='recopilación de arte por computadora'>random</Link>
-        <Link href='https://sinsy.jp/' target='_blank' description='síntesis de voz cantada online'>sinsy</Link>
-        <Link href='https://www.soundonsound.com/' target='_blank' description='revista de audio'>sound on sound</Link>
-        <Link href='https://t3knologialibr3.tumblr.com/' target='_blank' description='difusora chilena sobre electrónica casera y música'>t3knolibr3</Link>
-        <Link href='https://vimm.net/' target='_blank' description='roms y emuladores'>vimm's lair</Link>
-        <Link href='https://www.wendycarlos.com/' target='_blank' description='fuente oficial de información sobre wendy carlos'>wendy carlos</ Link>
+        {orderedList.map((item, i) => (
+          <Link key={i} href={item.href} description={item.description} target='_blank'>{item.title}</Link>
+        ))}
       </Linklist>
     </div>
   )
