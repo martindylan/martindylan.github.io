@@ -19,6 +19,7 @@
   margin-bottom: 2rem;
   max-width: 45ch;
 }
+
 .line {
   margin: 0;
   display: block;
@@ -33,12 +34,18 @@
 }
 
 .this ul {
-  margin: 0;
-  padding: 0;
+  list-style-type: none;
+  border-width: medium;
+  border-color: var(--fg-col1);
+  border-style: dotted;
+  padding: 4px;
 }
+
 .this li {
-  text-align: left;
+  text-align-last: justify;
+  word-spacing: -6px;
 }
+
 .this li span {
   background: var(--bg);
 }
