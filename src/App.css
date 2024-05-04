@@ -34,6 +34,9 @@
   justify-content: center;
   margin-bottom: 1.5rem;
 }
+.Card-container.top {
+  align-items: flex-start;
+}
 
 .CardLong-container {
   display: block;
@@ -65,7 +68,7 @@ hr {
 }
 
 .smallButton {
-  border-color: #fff;
+  border-color: var(--fg);
   background: var(--fg-col2);
   border-radius: 4px;
   font-family: unset;

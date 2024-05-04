@@ -7,6 +7,7 @@ import Cosas from './Routes/Cosas/Cosas';
 import Portafolio from './Routes/Portafolio/Portafolio'
 import Gente from './Routes/Gente/Gente';
 import Lugares from './Routes/Lugares/Lugares';
+import Musica from './Routes/Musica/Musica'
 // COMPONENTS
 import Head from './Head/Head';
 import Foot from './Foot/Foot';
@@ -24,7 +25,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/portafolio' element={<Portafolio />} />
-          {/* <Route path='/audio' element={<Audio />} /> */}
+          <Route path='/musica' element={<Musica />} />
           <Route path='/cosas' element={<Cosas />} />
           <Route path='/gente' element={<Gente />} />
           <Route path='/lugares' element={<Lugares />} />

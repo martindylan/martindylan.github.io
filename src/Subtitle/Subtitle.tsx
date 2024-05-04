@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import styles from './Subtitle.module.css';
 
 type Props = {
-  name?: string
+  children?: ReactNode
 }
 
 export default function Subtitle(props: Props) {
@@ -10,8 +10,8 @@ export default function Subtitle(props: Props) {
     <div className={styles.this}>
       <div className={styles.line}></div>
       <div className={styles.name}>
-        {props.name &&
-          <h1><span>★</span>{props.name}</h1>
+        {props.children &&
+          <h1><span style={{ marginRight: '4px' }}>•</span>{props.children}</h1>
         }
       </div>
     </div>

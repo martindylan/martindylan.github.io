@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
 
-  background: var(--fg-col1);
+  background: linear-gradient(90deg, var(--fg-col1), transparent);
 
   z-index: -1;
 }
