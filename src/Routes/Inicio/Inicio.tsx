@@ -15,23 +15,23 @@ export default function Inicio() {
       </div>
       <div className={styles.block}>
         <div className={styles.line}>
-          <p>compongo, produzco</p>
+          <div>compongo, produzco</div>
         </div>
         <div className={styles.line}>
-          <p>programo, diseño sonidos</p>
+          <div>programo, diseño sonidos</div>
         </div>
         <div className={styles.line}>
-          <p>me gustaría hacer jueguitos</p>
-        </div>
-      </div>
-      <div className={styles.block}>
-        <div className={styles.line}>
-          <p>esta página es para compartir las cosas que hago y también las cosas que me gustan</p>
+          <div>me gustaría hacer jueguitos</div>
         </div>
       </div>
       <div className={styles.block}>
         <div className={styles.line}>
-          <p>fan de:</p>
+          <div>esta página es para compartir las cosas que hago y también las cosas que me gustan</div>
+        </div>
+      </div>
+      <div className={styles.block}>
+        <div className={styles.line}>
+          <div>fan de:</div>
           <ul>
             <li>c o m p u t a d o r a s</li>
             <li>l i s t a s d e s o r d e n a d a s</li>

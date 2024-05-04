@@ -1,18 +1,18 @@
 import React from 'react';
 import Title from '../../Title/Title';
 import CardLong from '../../CardLong/CardLong';
-import gest from './img/gest.jpeg';
-import raytone from './img/raytone.jpeg';
-import anhelo from './img/anhelo.jpeg';
-import puredata from './img/puredata.jpeg';
-import presupuesto from './img/presupuesto.jpeg'
-import agua from './img/agua.jpeg';
+import img_gest from './img/gest.jpeg';
+import img_raytone from './img/raytone.jpeg';
+import img_anhelo from './img/anhelo.jpeg';
+import img_puredata from './img/puredata.jpeg';
+import img_presupuesto from './img/presupuesto.jpeg'
+import img_agua from './img/agua.jpeg';
 
 const list = [
   {
     name: `GEST: Instrumento Musical Virtual Gestual`,
     link: `https://uncinnova.unc.edu.ar/2023/05/09/gest-instrumento-musical-virtual-gestual/`,
-    img: gest,
+    img: img_gest,
     description: [
       `Proyecto ganador del premio "UNC Innova".`,
       `Desarrollado en equipo utilizando Unreal Engine, intercomunicado con diversos softwares de audio y utilizando tecnología de Realidad Virtual.`,
@@ -22,7 +22,7 @@ const list = [
   },
   {
     name: `Ensayo abierto: Agua y distorsión`,
-    img: agua,
+    img: img_agua,
     description: [
       `Proyecto transdisciplinario (danza, música, gráficos y programación) coproducido con Francisco Gonella Fava. Reconocimiento de gestos con Kinect V2 y síntesis de imagen en TouchDesigner + dispositivos de audio para la generación de música en tiempo real en Pure Data.`
     ],
@@ -31,7 +31,7 @@ const list = [
   {
     name: `Anhelo del desconocido conocido`,
     link: `https://youtu.be/Ew8ynAkciSo`,
-    img: anhelo,
+    img: img_anhelo,
     description: [
       `Pieza mixta para flauta contrabajo y electrónica en vivo, creada junto a Dante Demarchi Oliveira, Patricia García y Fernando Zappino.`,
       `Fue presentada en concierto, posteriormente editada y lanzada en el disco Flauta Lab (℗©Compo Lab).`,
@@ -42,7 +42,7 @@ const list = [
   {
     name: `Composición Audiovisual en Tiempo Real con RayTone`,
     link: `https://youtu.be/4WC5qjHF27w`,
-    img: raytone,
+    img: img_raytone,
     description: [
       `Becado por la Universidad de Stanford.`,
       `Formación y prueba del entorno de programación RayTone, aún en desarrollo, para la composición de piezas audiovisuales utilizando ChucK y shaders HLSL.`,
@@ -53,7 +53,7 @@ const list = [
   {
     name: `Publicación de software de audio`,
     link: `https://github.com/martindylan`,
-    img: puredata,
+    img: img_puredata,
     description: [
       `Diseño e implementación de dispositivos de audio (sintetizadores, efectos, herramientas varias) desarrollados principalmente en Pure Data y publicados bajo licencias FOSS, como parte de mi investigación y educación continua en DSP.`
     ],
@@ -62,7 +62,7 @@ const list = [
   {
     name: `Paisaje sonoro de las festividades por la coronación de Carlos IV`,
     link: `https://soundcloud.com/cibertopo/paisaje_sonoro_museo_documento_ascenso_carlos_ivwav/s-VHeI6xv4I6h?si=d1552917e01f4a27b9f7b50a850de0d2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
-    img: presupuesto,
+    img: img_presupuesto,
     description: [
       `Pieza creada junto a Basilio del Boca a partir de una reconstrucción histórica en torno a la celebración de la coronación de Carlos IV en Buenos Aires, a exponerse junto a un documento de la época donde se designa el presupuesto para dichas festividades.`,
       `Coordinación y asesoramiento general: Clarisa Pedrotti.`

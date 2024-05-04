@@ -216,7 +216,6 @@ export default function Gente() {
         >
           VISITA RANDOM!
         </button>
-
         {orderedList.map((item, i) => (
           <Link key={i} href={item.href} description={item.description} target='_blank'>{item.title}</Link>
         ))}

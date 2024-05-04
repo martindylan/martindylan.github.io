@@ -13,10 +13,10 @@ import img_dmtools from './img/dmtools.png';
 
 export default function Cosas() {
   return (
-    <div className='Cosas'>
+    <div>
       <Title>cosas</Title>
       <section>
-        <Subtitle name='web' />
+        <Subtitle>web</Subtitle>
         <div className='Card-container'>
           <Card
             name='bubblewrap'
@@ -56,16 +56,56 @@ export default function Cosas() {
         </div>
       </section>
       <section>
-        <Subtitle name='pure data/vst3' />
+        <Subtitle>pure data/vst3</Subtitle>
         <div className="Card-container">
-          <Card name="pmatrix~" link="https://github.com/martindylan/pmatrix" description="sintetizador monofónico PM/sustractivo semi-modular" img={img_pmatrix} />
-          <Card name="granola~" link="https://github.com/martindylan/granola" description="sintetizador granular estocástico" img={img_granola} />
-          <Card name="mystortion~" link="https://github.com/martindylan/mystortion" description="distorsión basada en AM" img={img_mystortion} />
-          <Card name="roads~" link="https://github.com/martindylan/roads" description="efecto de audio granular" img={img_roads} />
-          <Card name="polywave~" link="https://github.com/martindylan/pd-polywave" description="sintetizador poligonal" img={img_polywave} />
-          <Card name="pullme~" link="https://github.com/martindylan/pd-pullme" description="resíntesis espectral basada en [sigmund~]" img={img_pullme} />
-          <Card name="dm7617~" link="https://github.com/martindylan/pd-dm7617" description="sintetizador fm" img={img_dm7617} />
-          <Card name="dmtools" link="https://github.com/martindylan/pd-dmtools" description="surtido de herramientas básicas de audio y de control" img={img_dmtools} />
+          <Card
+            name="pmatrix~"
+            link="https://github.com/martindylan/pmatrix"
+            description="sintetizador monofónico PM/sustractivo semi-modular"
+            img={img_pmatrix}
+          />
+          <Card
+            name="granola~"
+            link="https://github.com/martindylan/granola"
+            description="sintetizador granular estocástico"
+            img={img_granola}
+          />
+          <Card
+            name="mystortion~"
+            link="https://github.com/martindylan/mystortion"
+            description="distorsión basada en AM"
+            img={img_mystortion}
+          />
+          <Card
+            name="roads~"
+            link="https://github.com/martindylan/roads"
+            description="efecto de audio granular"
+            img={img_roads}
+          />
+          <Card
+            name="polywave~"
+            link="https://github.com/martindylan/pd-polywave"
+            description="sintetizador poligonal"
+            img={img_polywave}
+          />
+          <Card
+            name="pullme~"
+            link="https://github.com/martindylan/pd-pullme"
+            description="resíntesis espectral basada en [sigmund~]"
+            img={img_pullme}
+          />
+          <Card
+            name="dm7617~"
+            link="https://github.com/martindylan/pd-dm7617"
+            description="sintetizador fm"
+            img={img_dm7617}
+          />
+          <Card
+            name="dmtools"
+            link="https://github.com/martindylan/pd-dmtools"
+            description="surtido de herramientas básicas de audio y de control"
+            img={img_dmtools}
+          />
         </div>
       </section>
     </div>

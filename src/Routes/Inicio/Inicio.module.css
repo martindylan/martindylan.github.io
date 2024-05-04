@@ -5,16 +5,6 @@
   align-items: center;
 }
 
-.title {
-  margin: 2ch 0 2ch 1.5ch;
-}
-
-.title h1 {
-  background: var(--bg);
-  display: inline-block;
-  width: 7ch;
-}
-
 .block {
   margin-bottom: 2rem;
   max-width: 45ch;
@@ -26,11 +16,8 @@
   text-align: center;
 }
 
-.line p {
+.line div {
   background: var(--bg);
-  display: inline;
-  margin: 0;
-  max-width: 90%;
 }
 
 .this ul {
@@ -44,8 +31,5 @@
 .this li {
   text-align-last: justify;
   word-spacing: -6px;
-}
-
-.this li span {
   background: var(--bg);
 }
