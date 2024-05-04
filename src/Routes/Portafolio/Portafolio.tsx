@@ -82,7 +82,7 @@ export default function Cosas() {
             <hr />
             <div className='CardLong-container'>
               <CardLong
-                right={i % 2 != 0}
+                right={i % 2 !== 0}
                 name={item.name}
                 link={item.link}
                 img={item.img}
