@@ -1,0 +1,370 @@
+{
+  "nav": {
+    "home": "home",
+    "portfolio": "portfolio",
+    "music": "music",
+    "stuff": "stuff",
+    "people": "people",
+    "places": "places"
+  },
+  "home": {
+    "title": "hi",
+    "blocks": [
+      {
+        "lines": [
+          "i'm dylan"
+        ]
+      },
+      {
+        "lines": [
+          "composer, producer",
+          "programmer, sound designer",
+          "wannabe game dev"
+        ]
+      },
+      {
+        "lines": [
+          "this is a site to share stuff i make and stuff i like"
+        ]
+      },
+      {
+        "lines": [
+          "fan of"
+        ],
+        "items": [
+          "c o m p u t e r s",
+          "u n o r d e r e d  l i s t s",
+          "y e r b a    m a t e",
+          "p i r a c y",
+          "p s 2",
+          "p u r e    d a t a",
+          "8 0 s   s l a s h e r s",
+          "p u b l i c u n i v e r s i t y"
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "title": "portfolio",
+    "gest": {
+      "name": "GEST: Gestural Virtual Musical Instrument",
+      "description": [
+        "\"UNC Innova\" Award Winner",
+        "Research project developed in Unreal Engine, intercommunicating several audio and graphics applications and using Virtual Reality technology.",
+        "Currently still in development."
+      ],
+      "foot": "LEIM – National University of Córdoba – Argentina, May 31 2023"
+    },
+    "agua": {
+      "name": "Ensayo abierto: Agua y distorsión",
+      "description": [
+        "Transdisciplinary project (dance, music, graphics and programming) coproduced with Francisco Gonella Fava. Gesture recognition with Kinect V2 and video synthesis in TouchDesigner + custom audio devices for real-time music generation in Pure Data."
+      ],
+      "foot": "LEIM – National University of Córdoba – Argentina, November 16 2023"
+    },
+    "anhelo": {
+      "name": "Anhelo del desconocido conocido",
+      "description": [
+        "Mixed piece for contrabass flute and live electronics, co-produced with Dante Demarchi Oliveira, Patricia García y Fernando Zappino.",
+        "Presented in concert, later edited and released on the album \"Flauta Lab\" (℗©Compo Lab).",
+        "The project was selected for its execution through an open call for the composition residency event \"FLAUTA LAB\"."
+      ],
+      "foot": "CePIA – National University of Córdoba – Argentina, November 7 2022"
+    },
+    "raytone": {
+      "name": "Audiovisual Composition in Real-Time with RayTone",
+      "description": [
+        "Scholarship at Stanford University.",
+        "Introduction to RayTone programming environment for the composition of audiovisual pieces, using ChucK and HLSL shaders.",
+        "A composition was developed during the workshop."
+      ],
+      "foot": "CCRMA – Stanford University – EE.UU., July 21 2023"
+    },
+    "puredata": {
+      "name": "Audio software publishing",
+      "description": [
+        "Design and implementation of audio devices (synthesizers, effects, various tools) developed mainly in Pure Data and published under FOSS licenses, as part of my research and continuing education in DSP."
+      ],
+      "foot": "2021 – Present"
+    },
+    "presupuesto": {
+      "name": "Soundscape of the festivities for the coronation of Charles IV",
+      "description": [
+        "Piece created in collaboration with Basilio del Boca, from a historical reconstruction around the celebration of the coronation of Charles IV in Buenos Aires, to be exhibited together with a document from the time where the budget for said festivities is designated.",
+        "Coordination and general advice: Clarisa Pedrotti."
+      ],
+      "foot": "National Museum of the Cabildo – Buenos Aires – Argentina, August 4 2023"
+    }
+  },
+  "music": {
+    "title": "music",
+    "discography": "discography"
+  },
+  "stuff": {
+    "title": "stuff",
+    "web": {
+      "bubblewrap": {
+        "name": "bubblewrap",
+        "description": "a place to rest"
+      },
+      "polygon": {
+        "name": "polygonal waveform",
+        "description": "web audio API demo of polygonal waveform synthesis method"
+      },
+      "ants": {
+        "name": "ants",
+        "description": "langton's ant implementation (or place to have an existential crisis)"
+      },
+      "flute": {
+        "name": "contrabass flute fingerings",
+        "description": "tool to graph fingerings and export them to .png files"
+      },
+      "noted": {
+        "name": "noted!",
+        "description": "web app for taking notes"
+      },
+      "brush": {
+        "name": "brush",
+        "description": "another place to rest"
+      },
+      "lll": {
+        "name": "lll",
+        "description": "livelaughlove"
+      }
+    },
+    "puredata": {
+      "pmatrix": {
+        "description": "semi-modular PM/subtractive monophonic synthesizer - VST3 available"
+      },
+      "granola": {
+        "description": "stochastic granular synthesizer - VST3 available"
+      },
+      "mystortion": {
+        "description": "AM based distortion - VST3 available"
+      },
+      "roads": {
+        "description": "granular audio effect - VST3 available"
+      },
+      "polywave": {
+        "description": "polygonal synthesizer"
+      },
+      "pullme": {
+        "description": "spectral resynthesis based on [sigmund~]"
+      },
+      "dm7617": {
+        "description": "fm synthesizer "
+      },
+      "dmtools": {
+        "description": "pack of basic audio and control tools"
+      }
+    }
+  },
+  "people": {
+    "title": "amazing people",
+    "subtitle": "that i met in life or found on the internet",
+    "random_button": "random visit!",
+    "adel_faure": {
+      "description": "ascii artist and game developer"
+    },
+    "ana_rubinstein": {
+      "description": "3d artist"
+    },
+    "antonio_roberts": {
+      "description": "multimedia artist"
+    },
+    "basilio_del_boca": {
+      "description": "musician, programmer and teacher"
+    },
+    "carolina_villanueva_lucero": {
+      "description": "plastic and web artist"
+    },
+    "cassie_mcquater": {
+      "description": "game developer, multimedia and web artist"
+    },
+    "chia_amisola": {
+      "description": "web artist"
+    },
+    "daniel_iglesia": {
+      "description": "musician and programmer"
+    },
+    "dillon_bastan": {
+      "description": "musician and programmer"
+    },
+    "durante": {
+      "description": "musician"
+    },
+    "emilie_weibel": {
+      "description": "musician"
+    },
+    "eye_measure": {
+      "description": "musician and programmer"
+    },
+    "fede_camara_halac": {
+      "description": "musician and programmer"
+    },
+    "francisca_villela": {
+      "description": "musician and visual artist"
+    },
+    "handi": {
+      "description": "visual artist"
+    },
+    "ian_mccurdy": {
+      "description": "musician, luthier and programmer"
+    },
+    "ita": {
+      "description": "musician and fashion icon"
+    },
+    "jeongho_park": {
+      "description": "audiovisual artist and programmer"
+    },
+    "jingwei_zhao": {
+      "description": "musician and ML researcher"
+    },
+    "julia_teles": {
+      "description": "musician and multimedia artist"
+    },
+    "karen_palacios": {
+      "description": "VJ and programmer"
+    },
+    "laura_castillo": {
+      "description": "multimedia artist"
+    },
+    "laura_palavecino": {
+      "description": "visual artist and game developer"
+    },
+    "pansy": {
+      "description": "musician and visual artist"
+    },
+    "linus_akesson": {
+      "description": "musician, luthier and programmer"
+    },
+    "marianne_teixido": {
+      "description": "multimedia artist and programmer"
+    },
+    "merche_blasco": {
+      "description": "musician and multimedia artist"
+    },
+    "monica_jacobo": {
+      "description": "visual and multimedia artist"
+    },
+    "olivia_jack": {
+      "description": "multimedia artist and programmer"
+    },
+    "patricia_garcia": {
+      "description": "musician and teacher"
+    },
+    "pawel_janicki": {
+      "description": "musician"
+    },
+    "pombogay": {
+      "description": "visual artist"
+    },
+    "simina_oprescu": {
+      "description": "sound artist and researcher"
+    },
+    "sol_rezza": {
+      "description": "musician and spatial audio engineer"
+    },
+    "sukinapan": {
+      "description": "visual artist and game developer"
+    },
+    "tamara_moura_costa": {
+      "description": "multimedia artist, teacher and researcher"
+    },
+    "viznut": {
+      "description": "demoscene artist"
+    },
+    "yesica_duarte": {
+      "description": "artist and VR researcher"
+    }
+  },
+  "places": {
+    "title": "amazing places",
+    "subtitle": "that i found on the internet",
+    "random_button": "random visit!",
+    "agents_of_alienation": {
+      "description": "text by jaron lanier"
+    },
+    "battle_of_the_bits": {
+      "description": "retro computer music competitions and forums"
+    },
+    "bsblork": {
+      "description": "brasilia laptop orchestra"
+    },
+    "cameron_s_world": {
+      "description": "web collage"
+    },
+    "caso": {
+      "description": "center for sound arts (argentina)"
+    },
+    "cmmas": {
+      "description": "mexican center for music and sound arts"
+    },
+    "comedy_on_the_wall": {
+      "description": "?"
+    },
+    "elevator_js": {
+      "description": "little web \"game\""
+    },
+    "fakedac_": {
+      "description": "live coding and algorithmic art event"
+    },
+    "fauux": {
+      "description": "?"
+    },
+    "flo": {
+      "description": "female laptop orchestra"
+    },
+    "gifcities": {
+      "description": "gifs search engine"
+    },
+    "hacker_news": {
+      "description": "computing news"
+    },
+    "hadas_antifa": {
+      "description": "artistic movement of anti-fascist resistance from córdoba"
+    },
+    "hermanas_del_perro_magnetico": {
+      "description": "latin american text art crew"
+    },
+    "huemint": {
+      "description": "color palette generator"
+    },
+    "linux_sound": {
+      "description": "audio software compilation for linux"
+    },
+    "marginalia_search": {
+      "description": "independent search engine"
+    },
+    "neocities": {
+      "description": "free website creation"
+    },
+    "_netart_or_notart_": {
+      "description": "directory of latin american netartists"
+    },
+    "ooh__directory": {
+      "description": "blogs compilation"
+    },
+    "psx-place": {
+      "description": "playstation forums and resources"
+    },
+    "random": {
+      "description": "computer art compilation"
+    },
+    "sinsy": {
+      "description": "online singing voice synthesis"
+    },
+    "sound_on_sound": {
+      "description": "audio magazine"
+    },
+    "t3knolibr3": {
+      "description": "home electronics and music publisher from chile"
+    },
+    "vimm_s_lair": {
+      "description": "roms and emulators"
+    },
+    "wendy_carlos": {
+      "description": "official source of information about wendy carlos"
+    }
+  }
+}

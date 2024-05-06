@@ -4,157 +4,160 @@ import Linklist from '../../Linklist/Linklist';
 import Link from '../../Linklist/Link/Link';
 import styles from './Lugares.module.css';
 import SmallTitle from '../../SmallTitle/SmallTitle';
-
-const list = [
-  {
-    title: `agents of alienation`,
-    description: `texto de jaron lanier`,
-    href: `http://www.jaronlanier.com/agentalien.html`
-  },
-  {
-    title: `battle of the bits`,
-    description: `foro y competencias de música por computadora retro`,
-    href: `https://battleofthebits.com/`
-  },
-  {
-    title: `bsblork`,
-    description: `orquesta de laptops de brasilia`,
-    href: `https://bsblork.gitlab.io/`
-  },
-  {
-    title: `cameron's world`,
-    description: `collage web`,
-    href: `https://www.cameronsworld.net/`
-  },
-  {
-    title: `caso`,
-    description: `centro de arte sonoro (argentina)`,
-    href: `https://centrodeartesonoro.cultura.gob.ar/info/centro-de-arte-sonoro-caso/`
-  },
-  {
-    title: `cmmas`,
-    description: `centro mexicano para la música y las artes sonoras`,
-    href: `https://en.cmmas.com/`
-  },
-  {
-    title: `comedy on the wall`,
-    description: `?`,
-    href: `https://comedyonthewall-n4.tripod.com/`
-  },
-  {
-    title: `elevator.js`,
-    description: `"jueguito" web`,
-    href: `https://tholman.com/elevator.js/`
-  },
-  {
-    title: `fakedac~`,
-    description: `evento de live coding y arte algorítmica`,
-    href: `https://fakedac.net/`
-  },
-  {
-    title: `fauux`,
-    description: `?`,
-    href: `https://fauux.neocities.org/`
-  },
-  {
-    title: `flo`,
-    description: `female laptop orchestra`,
-    href: `https://femalelaptoporchestra.wordpress.com/`
-  },
-  {
-    title: `gifcities`,
-    description: `motor de búsqueda de gifs`,
-    href: `https://gifcities.org/`
-  },
-  {
-    title: `hacker news`,
-    description: `noticias en computación`,
-    href: `https://news.ycombinator.com/`
-  },
-  {
-    title: `hadas antifa`,
-    description: `movimiento artístico cordobés de resistencia antifascista`,
-    href: `https://linktr.ee/hadas_antifa`
-  },
-  {
-    title: `hermanas del perro magnético`,
-    description: `crew de arte texto latinoamericana`,
-    href: `https://16colo.rs/group/hermanas%20del%20perro%20magnetico`
-  },
-  {
-    title: `huemint`,
-    description: `generador de paletas de colores`,
-    href: `https://huemint.com/`
-  },
-  {
-    title: `linux sound`,
-    description: `compilado de software de audio para linux`,
-    href: `http://linux-sound.org/`
-  },
-  {
-    title: `marginalia search`,
-    description: `motor de búsqueda independiente`,
-    href: `https://search.marginalia.nu/`
-  },
-  {
-    title: `neocities`,
-    description: `creación gratuita de sitios web`,
-    href: `https://neocities.org/`
-  },
-  {
-    title: `¿netart or notart?`,
-    description: `directorio de netartistas de latinoamérica`,
-    href: `http://meiac.es/latino/`
-  },
-  {
-    title: `ooh! directory`,
-    description: `colección de blogs`,
-    href: `https://ooh.directory/`
-  },
-  {
-    title: `psx-place`,
-    description: `foros y recursos de playstation`,
-    href: `https://www.psx-place.com/forum/app.php/portal`
-  },
-  {
-    title: `random`,
-    description: `recopilación de arte por computadora`,
-    href: `https://random.residual.fun/`
-  },
-  {
-    title: `sinsy`,
-    description: `síntesis de voz cantada online`,
-    href: `https://sinsy.jp/`
-  },
-  {
-    title: `sound on sound`,
-    description: `revista de audio`,
-    href: `https://www.soundonsound.com/`
-  },
-  {
-    title: `t3knolibr3`,
-    description: `difusora chilena sobre electrónica casera y música`,
-    href: `https://t3knologialibr3.tumblr.com/`
-  },
-  {
-    title: `vimm's lair`,
-    description: `roms y emuladores`,
-    href: `https://vimm.net/`
-  },
-  {
-    title: `wendy carlos`,
-    description: `fuente oficial de información sobre wendy carlos`,
-    href: `https://www.wendycarlos.com/`
-  },
-]
+import { useTranslation } from 'react-i18next';
 
 export default function Lugares() {
+  const [t, i18n] = useTranslation("global");
+
+  const list = [
+    {
+      title: `agents of alienation`,
+      description: t("places.agents_of_alienation.description"),
+      href: `http://www.jaronlanier.com/agentalien.html`
+    },
+    {
+      title: `battle of the bits`,
+      description: t("places.battle_of_the_bits.description"),
+      href: `https://battleofthebits.com/`
+    },
+    {
+      title: `bsblork`,
+      description: t("places.bsblork.description"),
+      href: `https://bsblork.gitlab.io/`
+    },
+    {
+      title: `cameron's world`,
+      description: t("places.cameron_s_world.description"),
+      href: `https://www.cameronsworld.net/`
+    },
+    {
+      title: `caso`,
+      description: t("places.caso.description"),
+      href: `https://centrodeartesonoro.cultura.gob.ar/info/centro-de-arte-sonoro-caso/`
+    },
+    {
+      title: `cmmas`,
+      description: t("places.cmmas.description"),
+      href: `https://en.cmmas.com/`
+    },
+    {
+      title: `comedy on the wall`,
+      description: t("places.comedy_on_the_wall.description"),
+      href: `https://comedyonthewall-n4.tripod.com/`
+    },
+    {
+      title: `elevator.js`,
+      description: t("places.elevator_js.description"),
+      href: `https://tholman.com/elevator.js/`
+    },
+    {
+      title: `fakedac~`,
+      description: t("places.fakedac_.description"),
+      href: `https://fakedac.net/`
+    },
+    {
+      title: `fauux`,
+      description: t("places.fauux.description"),
+      href: `https://fauux.neocities.org/`
+    },
+    {
+      title: `flo`,
+      description: t("places.flo.description"),
+      href: `https://femalelaptoporchestra.wordpress.com/`
+    },
+    {
+      title: `gifcities`,
+      description: t("places.gifcities.description"),
+      href: `https://gifcities.org/`
+    },
+    {
+      title: `hacker news`,
+      description: t("places.hacker_news.description"),
+      href: `https://news.ycombinator.com/`
+    },
+    {
+      title: `hadas antifa`,
+      description: t("places.hadas_antifa.description"),
+      href: `https://linktr.ee/hadas_antifa`
+    },
+    {
+      title: `hermanas del perro magnetico`,
+      description: t("places.hermanas_del_perro_magnetico.description"),
+      href: `https://16colo.rs/group/hermanas%20del%20perro%20magnetico`
+    },
+    {
+      title: `huemint`,
+      description: t("places.huemint.description"),
+      href: `https://huemint.com/`
+    },
+    {
+      title: `linux sound`,
+      description: t("places.linux_sound.description"),
+      href: `http://linux-sound.org/`
+    },
+    {
+      title: `marginalia search`,
+      description: t("places.marginalia_search.description"),
+      href: `https://search.marginalia.nu/`
+    },
+    {
+      title: `neocities`,
+      description: t("places.neocities.description"),
+      href: `https://neocities.org/`
+    },
+    {
+      title: `¿netart or notart?`,
+      description: t("places._netart_or_notart_.description"),
+      href: `http://meiac.es/latino/`
+    },
+    {
+      title: `ooh! directory`,
+      description: t("places.ooh__directory.description"),
+      href: `https://ooh.directory/`
+    },
+    {
+      title: `psx-place`,
+      description: t("places.psx-place.description"),
+      href: `https://www.psx-place.com/forum/app.php/portal`
+    },
+    {
+      title: `random`,
+      description: t("places.random.description"),
+      href: `https://random.residual.fun/`
+    },
+    {
+      title: `sinsy`,
+      description: t("places.sinsy.description"),
+      href: `https://sinsy.jp/`
+    },
+    {
+      title: `sound on sound`,
+      description: t("places.sound_on_sound.description"),
+      href: `https://www.soundonsound.com/`
+    },
+    {
+      title: `t3knolibr3`,
+      description: t("places.t3knolibr3.description"),
+      href: `https://t3knologialibr3.tumblr.com/`
+    },
+    {
+      title: `vimm's lair`,
+      description: t("places.vimm_s_lair.description"),
+      href: `https://vimm.net/`
+    },
+    {
+      title: `wendy carlos`,
+      description: t("places.wendy_carlos.description"),
+      href: `https://www.wendycarlos.com/`
+    },
+  ]
+
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
 
   return (
     <div className={styles.this}>
-      <Title>lugares increíbles</Title>
-      <SmallTitle>que encontré hurgando en internet</SmallTitle>
+      <Title>{t("places.title")}</Title>
+      <SmallTitle>{t("places.subtitle")}</SmallTitle>
       <Linklist>
         <button
           className='smallButton'
@@ -164,7 +167,7 @@ export default function Lugares() {
             window.open(list[index].href, '_blank');
           }}
         >
-          VISITA RANDOM!
+          {t("places.random_button")}
         </button>
 
         {orderedList.map((item, i) => (

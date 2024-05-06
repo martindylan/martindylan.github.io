@@ -33,7 +33,8 @@
     flex-direction: row-reverse;
   }
 
-  .this a.linked:hover, .this a.linked:focus {
+  .this a.linked:hover,
+  .this a.linked:focus {
     border-top: 0.25rem solid var(--fg-col1);
     border-bottom: 0.25rem solid var(--fg-col1);
     box-shadow: 0 0 0.4rem var(--fg-col1) inset;
@@ -41,7 +42,7 @@
     transition-duration: 150ms;
     transition-timing-function: ease-out;
   }
-  
+
   .this a.linked:not(:hover):not(:focus) {
     border-top: 0.25rem solid transparent;
     border-bottom: 0.25rem solid transparent;
@@ -77,14 +78,6 @@
 .name,
 .description {
   max-width: 70ch;
-}
-
-/* IMAGE */
-.this img {
-  width: 24rem;
-  max-width: 100%;
-  border-radius: 1rem;
-  object-fit: cover;
 }
 
 .body {

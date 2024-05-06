@@ -1,46 +1,49 @@
 import React from 'react';
 import Title from '../../Title/Title';
 import styles from './Inicio.module.css';
+import { useTranslation } from 'react-i18next';
 
 export default function Inicio() {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className={styles.this}>
       <Title>
-        hola<span className='col1'>*･°</span>
+        {t("home.title")}<span className='col1'>*･°</span>
       </Title>
       <div className={styles.block}>
         <div className={styles.line}>
-          soy dylan
+          {t("home.blocks.0.lines.0")}
         </div>
       </div>
       <div className={styles.block}>
         <div className={styles.line}>
-          <div>compongo, produzco</div>
+          <div>{t("home.blocks.1.lines.0")}</div>
         </div>
         <div className={styles.line}>
-          <div>programo, diseño sonidos</div>
+          <div>{t("home.blocks.1.lines.1")}</div>
         </div>
         <div className={styles.line}>
-          <div>me gustaría hacer jueguitos</div>
-        </div>
-      </div>
-      <div className={styles.block}>
-        <div className={styles.line}>
-          <div>esta página es para compartir las cosas que hago y también las cosas que me gustan</div>
+          <div>{t("home.blocks.1.lines.2")}</div>
         </div>
       </div>
       <div className={styles.block}>
         <div className={styles.line}>
-          <div>fan de:</div>
+          <div>{t("home.blocks.2.lines.0")}</div>
+        </div>
+      </div>
+      <div className={styles.block}>
+        <div className={styles.line}>
+          <div>{t("home.blocks.3.lines.0")}:</div>
           <ul>
-            <li>c o m p u t a d o r a s</li>
-            <li>l i s t a s d e s o r d e n a d a s</li>
-            <li>m a t e</li>
-            <li>p i r a t e r í a</li>
-            <li>p s 2</li>
-            <li>p u r e    d a t a</li>
-            <li>s l a s h e r s o c h e n t o s o s</li>
-            <li>u n i v e r s i d a d p ú b l i c a</li>
+            <li>{t("home.blocks.3.items.0")}</li>
+            <li>{t("home.blocks.3.items.1")}</li>
+            <li>{t("home.blocks.3.items.2")}</li>
+            <li>{t("home.blocks.3.items.3")}</li>
+            <li>{t("home.blocks.3.items.4")}</li>
+            <li>{t("home.blocks.3.items.5")}</li>
+            <li>{t("home.blocks.3.items.6")}</li>
+            <li>{t("home.blocks.3.items.7")}</li>
           </ul>
         </div>
       </div>

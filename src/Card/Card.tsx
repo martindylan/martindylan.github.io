@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Card.module.css';
+import ImgLoader from '../ImgLoader/ImgLoader';
 
 type Props = {
   name?: string,
@@ -17,7 +18,7 @@ export default function Card(props: Props) {
         {!props.bottom && <div className={styles.name}>
           <h2>{props.name}</h2>
         </div>}
-        {props.img && <img src={props.img} alt='' style={{ width: props.size }} />}
+        {props.img && <ImgLoader img={props.img} width={props.size} height={props.size} />}
         {props.bottom && <div className={styles.name}>
           <h2>{props.name}</h2>
         </div>}

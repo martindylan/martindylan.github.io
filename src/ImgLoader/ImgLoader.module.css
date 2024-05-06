@@ -1,0 +1,47 @@
+/* IMAGE */
+.img_container {
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.img_container * {
+  width: inherit;
+  height: inherit;
+}
+
+.img_container img {
+  object-fit: cover;
+  z-index: 1;
+}
+
+.img_container .skeleton {
+  position: absolute;
+  border-radius: inherit;
+  overflow: hidden;
+  background-color: #DDDBDD;
+  min-width: 10rem;
+  min-height: 8rem;
+}
+
+.img_container .skeleton::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0,
+      rgba(255, 255, 255, 0.3) 20%,
+      rgba(255, 255, 255, 0.8) 60%,
+      rgba(255, 255, 255, 0));
+  animation: shimmer 3s infinite;
+  content: '';
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}

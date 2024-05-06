@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './CardLong.module.css';
+import ImgLoader from '../ImgLoader/ImgLoader';
 
 type Props = {
   name?: string,
@@ -11,6 +12,7 @@ type Props = {
 }
 
 export default function Card(props: Props) {
+  const [loading, setLoading] = useState(true);
   return (
     <div className={`${styles.this} ${props.right ? styles.right : ''}`}>
       <a
@@ -19,7 +21,7 @@ export default function Card(props: Props) {
         target='_blank'
         rel='noreferrer'
       >
-        {props.img && <img src={props.img} alt='' />}
+        {props.img && <ImgLoader img={props.img} width='24rem' height='16rem' radius='1rem' />}
         <div className={styles.container}>
           <div className={styles.name}>
             <h2>{props.name}</h2>

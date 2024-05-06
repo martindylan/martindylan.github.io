@@ -8,38 +8,28 @@
   align-items: center;
 }
 
+.lang {
+  user-select: none;
+}
+
+.lang > span.selected {
+  color: var(--fg-col2);
+}
+
+.lang > span:hover {
+  cursor: pointer;
+}
+
 .links {
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
+  gap: 0.5rem;
   justify-content: flex-end;
-  padding: 0.5rem 0 0.25rem;
-}
-
-
-.links:first-of-type {
-  flex: 1;
-}
-
-.links:last-of-type {
-  align-items: flex-end;
-}
-
-.links span {
-  align-self: flex-start;
-  line-height: 1.5rem;
-}
-@media (min-width:768px) {
-  .links span {
-    align-self: center;
-  }
+  align-items: center;
 }
 
 .links img {
   height: 1.5rem;
   user-select: none;
-}
-
-.links img, .links span {
-  height: 1.5rem;
-  padding: 0 0.5rem;
 }

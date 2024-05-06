@@ -10,7 +10,10 @@
   border-top: 0.25rem solid transparent;
   border-bottom: 0.25rem solid transparent;
   box-shadow: none;
-  margin: 0 1rem 1rem;
+  margin: 0 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -46,13 +49,6 @@
 .name,
 .description {
   max-width: 40ch;
-}
-
-/* IMAGE */
-.this img {
-  display: block;
-  max-width: 100%;
-  margin: 0 auto 0.5rem;
 }
 
 /* DESCRIPTION */

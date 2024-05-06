@@ -4,14 +4,17 @@ import Subtitle from '../../Subtitle/Subtitle';
 import Card from '../../Card/Card';
 import img_cibertopo from './img/cibertopo.jpeg';
 import img_moonlight from './img/moonlight.jpeg';
+import { useTranslation } from 'react-i18next';
 // import img_samba from './img/samba.jpeg';
 
 export default function Musica() {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div>
-      <Title>música</Title>
+      <Title>{t("music.title")}</Title>
       <section>
-        <Subtitle>discografía</Subtitle>
+        <Subtitle>{t("music.discography")}</Subtitle>
         <div className='Card-container top'>
           <Card
             name='cibertopo'
@@ -37,7 +40,7 @@ export default function Musica() {
           <Card
             name='SAMBA DE VERÃO (durante remix)'
             link='https://amigosdelalima.bandcamp.com/track/samba-de-verao-durante-remix'
-            description='2024 - sencillo (mezcla y masterización)'
+            description='2024 - single (mix + master)'
             img={img_samba}
             size='10rem'
             bottom

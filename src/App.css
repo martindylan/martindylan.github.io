@@ -73,6 +73,7 @@ hr {
   border-radius: 4px;
   font-family: unset;
   margin: 6px;
+  text-transform: uppercase;
 }
 .smallButton:hover {
   cursor: pointer;
