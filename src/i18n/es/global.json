@@ -29,17 +29,18 @@
       },
       {
         "lines": [
-          "fan de"
+          "fan de:"
         ],
         "items": [
           "c o m p u t a d o r a s",
-          "l i s t a s d e s o r d e n a d a s",
-          "m a t e",
+          "l i s t a s  d e s o r d e n a d a s",
+          "y e r b a      m a t e",
           "p i r a t e r í a",
-          "p s 2",
-          "p u r e    d a t a",
-          "s l a s h e r s o c h e n t o s o s",
-          "u n i v e r s i d a d p ú b l i c a"
+          "s l a s h e r s  o c h e n t o s o s",
+          "p l a y s t a t i o n",
+          "u n i v e r s i d a d  p ú b l i c a",
+          "p u r e      d a t a",
+          "o b s o l e s c e n c i a  p o s t e r g a d a"
         ]
       }
     ]
@@ -53,14 +54,14 @@
         "Desarrollado en equipo utilizando Unreal Engine, intercomunicado con diversos softwares de audio y utilizando tecnología de Realidad Virtual.",
         "Actualmente sigue en desarrollo."
       ],
-      "foot": "LEIM – Universidad Nacional de Córdoba – Argentina, 31 de mayo 2023"
+      "foot": "LEIM – Universidad Nacional de Córdoba, 31 de mayo 2023"
     },
     "agua": {
       "name": "Ensayo abierto: Agua y distorsión",
       "description": [
         "Proyecto transdisciplinario (danza, música, gráficos y programación) coproducido con Francisco Gonella Fava. Reconocimiento de gestos con Kinect V2 y síntesis de imagen en TouchDesigner + dispositivos de audio para la generación de música en tiempo real en Pure Data."
       ],
-      "foot": "LEIM – Universidad Nacional de Córdoba – Argentina, 16 de noviembre 2023"
+      "foot": "LEIM – Universidad Nacional de Córdoba, 16 de noviembre 2023"
     },
     "anhelo": {
       "name": "Anhelo del desconocido conocido",
@@ -69,7 +70,7 @@
         "Fue presentada en concierto, posteriormente editada y lanzada en el disco Flauta Lab (℗©Compo Lab).",
         "El proyecto de obra fue seleccionado para su realización por convocatoria del evento de residencias compositivas \"FLAUTA LAB\"."
       ],
-      "foot": "CePIA – Universidad Nacional de Córdoba – Argentina, 7 de noviembre 2022"
+      "foot": "CePIA – Universidad Nacional de Córdoba, 7 de noviembre 2022"
     },
     "raytone": {
       "name": "Composición Audiovisual en Tiempo Real con RayTone",
@@ -78,7 +79,7 @@
         "Formación y prueba del entorno de programación RayTone, aún en desarrollo, para la composición de piezas audiovisuales utilizando ChucK y shaders HLSL.",
         "Se desarrolló una composición durante el período del workshop."
       ],
-      "foot": "CCRMA – Universidad de Stanford – EE.UU., 21 de julio 2023"
+      "foot": "CCRMA – Universidad de Stanford, 21 de julio 2023"
     },
     "puredata": {
       "name": "Publicación de software de audio",
@@ -93,7 +94,7 @@
         "Pieza creada junto a Basilio del Boca a partir de una reconstrucción histórica en torno a la celebración de la coronación de Carlos IV en Buenos Aires, a exponerse junto a un documento de la época donde se designa el presupuesto para dichas festividades.",
         "Coordinación y asesoramiento general: Clarisa Pedrotti."
       ],
-      "foot": "Museo Histórico Nacional del Cabildo – Buenos Aires – Argentina, 4 de agosto 2023"
+      "foot": "Museo Histórico Nacional del Cabildo – Buenos Aires, 4 de agosto 2023"
     }
   },
   "music": {

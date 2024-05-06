@@ -30,6 +30,6 @@
 
 .this li {
   text-align-last: justify;
-  word-spacing: -6px;
+  word-spacing: -7px;
   background: var(--bg);
 }

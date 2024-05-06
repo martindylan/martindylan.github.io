@@ -29,17 +29,18 @@
       },
       {
         "lines": [
-          "fan of"
+          "fan of:"
         ],
         "items": [
           "c o m p u t e r s",
           "u n o r d e r e d  l i s t s",
-          "y e r b a    m a t e",
+          "y e r b a      m a t e",
           "p i r a c y",
-          "p s 2",
-          "p u r e    d a t a",
-          "8 0 s   s l a s h e r s",
-          "p u b l i c u n i v e r s i t y"
+          "8 0 s    s l a s h e r s",
+          "p l a y s t a t i o n",
+          "p u b l i c  u n i v e r s i t y",
+          "p u r e      d a t a",
+          "d e l a y e d o b s o l e s c e n c e"
         ]
       }
     ]
@@ -53,14 +54,14 @@
         "Research project developed in Unreal Engine, intercommunicating several audio and graphics applications and using Virtual Reality technology.",
         "Currently still in development."
       ],
-      "foot": "LEIM – National University of Córdoba – Argentina, May 31 2023"
+      "foot": "LEIM – National University of Córdoba, May 31 2023"
     },
     "agua": {
       "name": "Ensayo abierto: Agua y distorsión",
       "description": [
         "Transdisciplinary project (dance, music, graphics and programming) coproduced with Francisco Gonella Fava. Gesture recognition with Kinect V2 and video synthesis in TouchDesigner + custom audio devices for real-time music generation in Pure Data."
       ],
-      "foot": "LEIM – National University of Córdoba – Argentina, November 16 2023"
+      "foot": "LEIM – National University of Córdoba, November 16 2023"
     },
     "anhelo": {
       "name": "Anhelo del desconocido conocido",
@@ -69,7 +70,7 @@
         "Presented in concert, later edited and released on the album \"Flauta Lab\" (℗©Compo Lab).",
         "The project was selected for its execution through an open call for the composition residency event \"FLAUTA LAB\"."
       ],
-      "foot": "CePIA – National University of Córdoba – Argentina, November 7 2022"
+      "foot": "CePIA – National University of Córdoba, November 7 2022"
     },
     "raytone": {
       "name": "Audiovisual Composition in Real-Time with RayTone",
@@ -78,7 +79,7 @@
         "Introduction to RayTone programming environment for the composition of audiovisual pieces, using ChucK and HLSL shaders.",
         "A composition was developed during the workshop."
       ],
-      "foot": "CCRMA – Stanford University – EE.UU., July 21 2023"
+      "foot": "CCRMA – Stanford University, July 21 2023"
     },
     "puredata": {
       "name": "Audio software publishing",
@@ -93,7 +94,7 @@
         "Piece created in collaboration with Basilio del Boca, from a historical reconstruction around the celebration of the coronation of Charles IV in Buenos Aires, to be exhibited together with a document from the time where the budget for said festivities is designated.",
         "Coordination and general advice: Clarisa Pedrotti."
       ],
-      "foot": "National Museum of the Cabildo – Buenos Aires – Argentina, August 4 2023"
+      "foot": "National Museum of the Cabildo – Buenos Aires, August 4 2023"
     }
   },
   "music": {
