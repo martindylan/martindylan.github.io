@@ -13,6 +13,7 @@
 .img_container img {
   object-fit: cover;
   z-index: 1;
+  max-width: inherit;
 }
 
 .img_container .skeleton {
