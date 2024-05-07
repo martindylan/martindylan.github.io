@@ -21,7 +21,7 @@ function App() {
       <DropdownProvider>
         <Head />
       </DropdownProvider>
-      <main className={'d-flex'}>
+      <main>
         <Routes>
           <Route path='/' element={<Inicio />} />
           <Route path='/portafolio' element={<Portafolio />} />

@@ -78,3 +78,11 @@ hr {
 .smallButton:hover {
   cursor: pointer;
 }
+
+main {
+  display: flex;
+  height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.33) transparent;
+}
