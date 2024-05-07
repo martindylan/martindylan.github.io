@@ -26,7 +26,7 @@
     display: block;
   }
 
-  @media (min-height: 600px) {
+  @media (min-height: 580px) {
     .art.bottom {
       display: block;
     }
