@@ -7,8 +7,20 @@
   text-align: justify;
 }
 
-.this > div {
+.this>div {
   position: fixed;
+}
+
+.art {
+  color: #214242;
+  position: fixed;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .art {
+    display: block;
+  }
 }
 
 
@@ -20,10 +32,21 @@
 }
 
 @keyframes frame0 {
-  0% {opacity: 100%;}
-  39% {opacity: 100%;}
-  40% {opacity: 0%;}
-  100% {opacity: 0%;}
+  0% {
+    opacity: 100%;
+  }
+
+  39% {
+    opacity: 100%;
+  }
+
+  40% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
 }
 
 .frame1 {
@@ -34,14 +57,37 @@
 }
 
 @keyframes frame1 {
-  0% {opacity: 0%;}
-  39% {opacity: 0%;}
-  40% {opacity: 100%;}
-  44% {opacity: 100%;}
-  45% {opacity: 0%;}
-  89% {opacity: 0%;}
-  90% {opacity: 100%;}
-  100% {opacity: 100%;}
+  0% {
+    opacity: 0%;
+  }
+
+  39% {
+    opacity: 0%;
+  }
+
+  40% {
+    opacity: 100%;
+  }
+
+  44% {
+    opacity: 100%;
+  }
+
+  45% {
+    opacity: 0%;
+  }
+
+  89% {
+    opacity: 0%;
+  }
+
+  90% {
+    opacity: 100%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
 }
 
 .frame2 {
@@ -52,9 +98,23 @@
 }
 
 @keyframes frame2 {
-  0% {opacity: 0%;}
-  44% {opacity: 0%;}
-  45% {opacity: 100%;}
-  89% {opacity: 100%;}
-  90% {opacity: 0%;}
+  0% {
+    opacity: 0%;
+  }
+
+  44% {
+    opacity: 0%;
+  }
+
+  45% {
+    opacity: 100%;
+  }
+
+  89% {
+    opacity: 100%;
+  }
+
+  90% {
+    opacity: 0%;
+  }
 }
