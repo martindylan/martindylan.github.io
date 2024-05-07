@@ -31,7 +31,7 @@ export default function Background() {
   /::=========.:.-::"\\ \\ \\--\\   \\
   \\\`""""""""""""""""\`/  \\ \\__)   \\
 jgs\`""""""""""""""""\`    '========'
-          `
+              `
             }
           </pre>
           <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '75%', transform: 'translate(-50%, 50%)' }}>
@@ -41,7 +41,7 @@ jgs\`""""""""""""""""\`    '========'
 |[_]|
 |+ ;| hjw
 \`---'
-          `
+              `
             }
           </pre>
           <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '100%', transform: 'translate(-200%, 90%)' }}>
@@ -54,20 +54,20 @@ jgs\`""""""""""""""""\`    '========'
 |__..___|.' 
   //mrf
 .'/
-          `
+              `
             }
           </pre>
-          <pre className={styles.art} style={{ marginTop: 'calc(50vh - 3em)', marginLeft: '15%', transform: 'translate(-50%, 50%)' }}>
+          <pre className={`${styles.art} ${styles.bottom}`} style={{ marginTop: 'calc(50vh - 3em)', marginLeft: '15%', transform: 'translate(-50%, 50%)' }}>
             {
               `
  ______
 | |__| |
 |  ()  |
 |______|
-          `
+              `
             }
           </pre>
-          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '28%', transform: 'translate(-50%, -125%)' }}>
+          <pre className={`${styles.art} ${styles.bottom}`} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '28%', transform: 'translate(-50%, -125%)' }}>
             {
               `
  _________________
@@ -81,10 +81,10 @@ jgs\`""""""""""""""""\`    '========'
 | DD |       |   V|
 |____|_______|____|
       Robert Craggs
-          `
+              `
             }
           </pre>
-          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-105%, -100%)' }}>
+          <pre className={`${styles.art} ${styles.bottom}`} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-105%, -100%)' }}>
             {
               `
             ,----------------,              ,---------,
@@ -105,7 +105,7 @@ jgs\`""""""""""""""""\`    '========'
  / ==ooooooooooooooo==.o.  ooo= //   ,\`\\--{)B     ,"
 /_==__==========__==_ooo__ooo=_/'   /___________,"
 \`-----------------------------'
-          `
+              `
             }
           </pre>
         </>
@@ -134,7 +134,7 @@ _\\.\\/|   /'--'oOOOOOOo'--'\\
            // 
           //
          |/
-          `
+              `
             }
           </pre>
           <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '100%', transform: 'translate(-150%, 5%)' }}>
@@ -154,10 +154,10 @@ _\\.\\/|   /'--'oOOOOOOo'--'\\
      \`. \\\`;:.   //,/
       .\\\\)\`;,|\\'/(
        \` \`itz \`(,
-          `
+              `
             }
           </pre>
-          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', transform: 'translate(35%, -100%)' }}>
+          <pre className={`${styles.art} ${styles.bottom}`} style={{ marginTop: 'calc(100vh - 3em)', transform: 'translate(35%, -100%)' }}>
             {
               `
                  /'\`\\             /|\\
@@ -178,10 +178,10 @@ _\\.\\/|   /'--'oOOOOOOo'--'\\
              \`~'\\___ _/__,-|
                     \~~'   -|_
                            \|
-          `
+              `
             }
           </pre>
-          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-200%, -110%)' }}>
+          <pre className={`${styles.art} ${styles.bottom}`} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-200%, -110%)' }}>
             {
               `
    _,--._.-,
@@ -198,7 +198,7 @@ _\\.\\/|   /'--'oOOOOOOo'--'\\
         snd   \\\\
               \`\\\\,
                 \\\|
-          `
+              `
             }
           </pre>
         </>

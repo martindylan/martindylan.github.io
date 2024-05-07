@@ -17,12 +17,21 @@
   display: none;
 }
 
+.art.bottom {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .art {
     display: block;
   }
-}
 
+  @media (min-height: 600px) {
+    .art.bottom {
+      display: block;
+    }
+  }
+}
 
 .frame0 {
   opacity: 0%;
