@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
 import styles from './Background.module.css';
+import { useLocation } from 'react-router-dom';
 
 export default function Background() {
   const text = useState('&#x202e;');
+  const location = useLocation();
 
   return (
     <div className={styles.this}>
-      <pre className={styles.art} style={{ marginTop: '3em', transform: 'translate(25%)' }}>
-        {
-          `
+      {location.pathname == '/' &&
+        <>
+          <pre className={styles.art} style={{ marginTop: '3em', transform: 'translate(25%)' }}>
+            {
+              `
                          _______
                         | ___  o|
                         |[_-_]_ |
@@ -28,21 +32,21 @@ export default function Background() {
   \\\`""""""""""""""""\`/  \\ \\__)   \\
 jgs\`""""""""""""""""\`    '========'
           `
-        }
-      </pre>
-      <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '75%', transform: 'translate(-50%, 50%)' }}>
-        {
-          `
+            }
+          </pre>
+          <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '75%', transform: 'translate(-50%, 50%)' }}>
+            {
+              `
  ___
 |[_]|
 |+ ;| hjw
 \`---'
           `
-        }
-      </pre>
-      <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '100%', transform: 'translate(-200%, 90%)' }}>
-        {
-          `
+            }
+          </pre>
+          <pre className={styles.art} style={{ marginTop: '3em', marginLeft: '100%', transform: 'translate(-200%, 90%)' }}>
+            {
+              `
    ,-------,
   /       / | 
  /______ /  /
@@ -51,21 +55,21 @@ jgs\`""""""""""""""""\`    '========'
   //mrf
 .'/
           `
-        }
-      </pre>
-      <pre className={styles.art} style={{ marginTop: 'calc(50vh - 3em)', marginLeft: '15%', transform: 'translate(-50%, 50%)' }}>
-        {
-          `
+            }
+          </pre>
+          <pre className={styles.art} style={{ marginTop: 'calc(50vh - 3em)', marginLeft: '15%', transform: 'translate(-50%, 50%)' }}>
+            {
+              `
  ______
 | |__| |
 |  ()  |
 |______|
           `
-        }
-      </pre>
-      <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '28%', transform: 'translate(-50%, -125%)' }}>
-        {
-          `
+            }
+          </pre>
+          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '28%', transform: 'translate(-50%, -125%)' }}>
+            {
+              `
  _________________
 | | ___________ |o|
 | | ___________ | |
@@ -78,11 +82,11 @@ jgs\`""""""""""""""""\`    '========'
 |____|_______|____|
       Robert Craggs
           `
-        }
-      </pre>
-      <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-105%, -100%)' }}>
-        {
-          `
+            }
+          </pre>
+          <pre className={styles.art} style={{ marginTop: 'calc(100vh - 3em)', marginLeft: '100%', transform: 'translate(-105%, -100%)' }}>
+            {
+              `
             ,----------------,              ,---------,
        ,-----------------------,          ,"        ,"|
      ,"                      ,"|        ,"        ,"  |
@@ -102,9 +106,10 @@ jgs\`""""""""""""""""\`    '========'
 /_==__==========__==_ooo__ooo=_/'   /___________,"
 \`-----------------------------'
           `
-        }
-      </pre>
-
+            }
+          </pre>
+        </>
+      }
       <div className={styles.frame0}>
         &#x202e;{
           `#include "m_pd.h"
