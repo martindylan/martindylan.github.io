@@ -11,6 +11,12 @@ type Props = {
 export default function Foot(props: Props) {
   const [t, i18n] = useTranslation("global");
 
+  const changeLanguage = (lang: string) => {
+    if (i18n.language == lang) return;
+    i18n.changeLanguage(lang);
+    localStorage.setItem("i18n_language", lang);
+  }
+
   return (
     <div className={styles.this}>
       <div
@@ -25,10 +31,15 @@ export default function Foot(props: Props) {
           <span
             tabIndex={i18n.language == "es" ? -1 : 0}
             className={i18n.language == "es" ? styles.selected : ''}
-            onClick={() => {
-              if (i18n.language == "es") return;
-              i18n.changeLanguage("es");
-              localStorage.setItem("i18n_language", "es");
+            onClick={(e) => {
+              e.stopPropagation();
+              changeLanguage("es");
+            }}
+            onKeyDown={(e) => {
+              e.stopPropagation();
+              if (e.key == " " || e.key == "Enter") {
+                changeLanguage("es");
+              }
             }}
           >
             ES
@@ -37,10 +48,15 @@ export default function Foot(props: Props) {
           <span
             tabIndex={i18n.language == "en" ? -1 : 0}
             className={i18n.language == "en" ? styles.selected : ''}
-            onClick={() => {
-              if (i18n.language == "en") return;
-              i18n.changeLanguage("en");
-              localStorage.setItem("i18n_language", "en");
+            onClick={(e) => {
+              e.stopPropagation();
+              changeLanguage("en");
+            }}
+            onKeyDown={(e) => {
+              e.stopPropagation();
+              if (e.key == " " || e.key == "Enter") {
+                changeLanguage("en");
+              }
             }}
           >
             EN
