@@ -1,6 +1,7 @@
 /* IMAGE */
 .img_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr;
   max-width: 100%;
   overflow: hidden;
 }
@@ -8,6 +9,8 @@
 .img_container * {
   width: inherit;
   height: inherit;
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
 
 .img_container img {
@@ -17,7 +20,6 @@
 }
 
 .img_container .skeleton {
-  position: absolute;
   border-radius: inherit;
   overflow: hidden;
   background-color: #DDDBDD;
@@ -26,11 +28,9 @@
 }
 
 .img_container .skeleton::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  display: block;
+  width: inherit;
+  height: inherit;
   transform: translateX(-100%);
   background-image: linear-gradient(90deg,
       rgba(255, 255, 255, 0) 0,
