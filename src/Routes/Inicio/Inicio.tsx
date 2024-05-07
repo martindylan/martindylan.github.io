@@ -11,18 +11,18 @@ export default function Inicio() {
       <Title>
         {t("home.title")}<span className='col1'>*･°</span>
       </Title>
-      {blocks.map((block) => (
-        <div className={styles.block}>
-          {block.lines.map((line: string) => (
-            <div className={styles.line}>
+      {blocks.map((block, i) => (
+        <div key={i} className={styles.block}>
+          {block.lines.map((line: string, i: number) => (
+            <div key={i} className={styles.line}>
               <div>{line}</div>
               { }
             </div>
           ))}
           {block.items && (
             <ul>
-              {block.items.map((item: string) => (
-                <li>{item}</li>
+              {block.items.map((item: string, i: number) => (
+                <li key={i}>{item}</li>
               ))}
             </ul>
           )}
