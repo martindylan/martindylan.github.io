@@ -13,11 +13,12 @@
   font-size: 1.1em;
 }
 
-.lang > span.selected {
+.lang>span.selected {
   color: var(--fg-col2);
+  cursor: default!important;
 }
 
-.lang > span:hover {
+.lang>span:hover {
   cursor: pointer;
 }
 

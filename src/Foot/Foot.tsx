@@ -23,8 +23,10 @@ export default function Foot(props: Props) {
       >
         <div className={styles.lang}>
           <span
+            tabIndex={i18n.language == "es" ? -1 : 0}
             className={i18n.language == "es" ? styles.selected : ''}
             onClick={() => {
+              if (i18n.language == "es") return;
               i18n.changeLanguage("es");
               localStorage.setItem("i18n_language", "es");
             }}
@@ -33,8 +35,10 @@ export default function Foot(props: Props) {
           </span>
           /
           <span
+            tabIndex={i18n.language == "en" ? -1 : 0}
             className={i18n.language == "en" ? styles.selected : ''}
             onClick={() => {
+              if (i18n.language == "en") return;
               i18n.changeLanguage("en");
               localStorage.setItem("i18n_language", "en");
             }}
