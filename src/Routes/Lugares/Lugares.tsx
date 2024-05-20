@@ -150,6 +150,11 @@ export default function Lugares() {
       description: t("places.wendy_carlos.description"),
       href: `https://www.wendycarlos.com/`
     },
+    {
+      title: `cybercirujas`,
+      description: t("places.cybercirujas.description"),
+      href: `https://cybercirujas.rebelion.digital/`
+    },
   ]
 
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
