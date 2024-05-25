@@ -18,7 +18,7 @@ export default function Card(props: Props) {
         {!props.bottom && <div className={styles.name}>
           <h2>{props.name}</h2>
         </div>}
-        {props.img && <ImgLoader img={props.img} width={props.size} height={props.size} />}
+        {props.img && <ImgLoader img={props.img} width={props.size} height={props.size} style={{ marginBottom: '4px' }} />}
         {props.bottom && <div className={styles.name}>
           <h2>{props.name}</h2>
         </div>}
