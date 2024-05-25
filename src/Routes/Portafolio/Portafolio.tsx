@@ -13,6 +13,13 @@ export default function Cosas() {
   const [t, i18n] = useTranslation("global");
   const list = [
     {
+      name: t("portfolio.puredata.name"),
+      link: `https://github.com/martindylan`,
+      img: img_puredata,
+      description: t("portfolio.puredata.description", { returnObjects: true }),
+      // foot: t("portfolio.puredata.foot")
+    },
+    {
       name: t("portfolio.gest.name"),
       link: `https://uncinnova.unc.edu.ar/2023/05/09/gest-instrumento-musical-virtual-gestual/`,
       img: img_gest,
@@ -38,13 +45,6 @@ export default function Cosas() {
       img: img_raytone,
       description: t("portfolio.raytone.description", { returnObjects: true }),
       foot: t("portfolio.raytone.foot")
-    },
-    {
-      name: t("portfolio.puredata.name"),
-      link: `https://github.com/martindylan`,
-      img: img_puredata,
-      description: t("portfolio.puredata.description", { returnObjects: true }),
-      foot: t("portfolio.puredata.foot")
     },
     {
       name: t("portfolio.presupuesto.name"),

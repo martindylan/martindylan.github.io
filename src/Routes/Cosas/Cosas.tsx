@@ -32,6 +32,11 @@ export default function Cosas() {
             description={t("stuff.web.polygon.description")}
           />
           <Card
+            name={t("stuff.web.noted.name")}
+            link='https://martindylan.github.io/noted'
+            description={t("stuff.web.noted.description")}
+          />
+          <Card
             name={t("stuff.web.ants.name")}
             link='https://dylanmartin.neocities.org/cosas/ants/'
             description={t("stuff.web.ants.description")}
@@ -40,11 +45,6 @@ export default function Cosas() {
             name={t("stuff.web.flute.name")}
             link='https://dylanmartin.neocities.org/cosas/flauta/'
             description={t("stuff.web.flute.description")}
-          />
-          <Card
-            name={t("stuff.web.noted.name")}
-            link='https://martindylan.github.io/noted'
-            description={t("stuff.web.noted.description")}
           />
           <Card
             name={t("stuff.web.brush.name")}
