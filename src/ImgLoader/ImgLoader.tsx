@@ -5,7 +5,8 @@ type Props = {
   img: string,
   width?: string,
   height?: string,
-  radius?: string
+  radius?: string,
+  style?: Object
 }
 
 export default function ImgLoader(props: Props) {
@@ -17,7 +18,8 @@ export default function ImgLoader(props: Props) {
       style={{
         width: props.width || (loading ? '12rem' : 'unset'),
         height: props.height || (loading ? '10rem' : 'unset'),
-        borderRadius: props.radius || 'unset'
+        borderRadius: props.radius || 'unset',
+        ...props.style
       }}
     >
       <img
