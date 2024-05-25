@@ -5,7 +5,7 @@ import Card from '../../Card/Card';
 import img_cibertopo from './img/cibertopo.jpeg';
 import img_moonlight from './img/moonlight.jpeg';
 import { useTranslation } from 'react-i18next';
-// import img_samba from './img/samba.jpeg';
+import img_samba from './img/samba.jpeg';
 
 export default function Musica() {
   const [t, i18n] = useTranslation("global");
@@ -34,7 +34,7 @@ export default function Musica() {
           />
         </div>
       </section>
-      {/* <section>
+      <section>
         <Subtitle>prod/mix/master</Subtitle>
         <div className='Card-container top'>
           <Card
@@ -46,7 +46,7 @@ export default function Musica() {
             bottom
           />
         </div>
-      </section> */}
+      </section>
     </div>
   )
 }
