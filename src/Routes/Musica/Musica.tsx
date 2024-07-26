@@ -2,10 +2,11 @@ import React from 'react';
 import Title from '../../Title/Title';
 import Subtitle from '../../Subtitle/Subtitle';
 import Card from '../../Card/Card';
+import { useTranslation } from 'react-i18next';
 import img_cibertopo from './img/cibertopo.jpeg';
 import img_moonlight from './img/moonlight.jpeg';
-import { useTranslation } from 'react-i18next';
 import img_samba from './img/samba.jpeg';
+import img_jardines from './img/jardines.jpeg';
 
 export default function Musica() {
   const [t, i18n] = useTranslation("global");
@@ -16,6 +17,14 @@ export default function Musica() {
       <section>
         <Subtitle>{t("music.discography")}</Subtitle>
         <div className='Card-container top'>
+        <Card
+            name='Jardines'
+            link='https://sonidoatmosfericoediciones.bandcamp.com/album/jardines'
+            description='2024 - EP'
+            img={img_jardines}
+            size='10rem'
+            bottom
+          />
           <Card
             name='cibertopo'
             link='https://dylan-martin.bandcamp.com/album/cibertopo'
