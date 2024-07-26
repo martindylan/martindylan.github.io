@@ -28,7 +28,7 @@ export default function Musica() {
           <Card
             name='cibertopo'
             link='https://dylan-martin.bandcamp.com/album/cibertopo'
-            description='2022 - EP'
+            description='2022'
             img={img_cibertopo}
             size='10rem'
             bottom
@@ -36,7 +36,7 @@ export default function Musica() {
           <Card
             name='the moonlight shines on the irises'
             link='https://dylan-martin.bandcamp.com/album/the-moonlight-shines-on-the-irises'
-            description='2022 - EP'
+            description='2022'
             img={img_moonlight}
             size='10rem'
             bottom
