@@ -14,11 +14,11 @@ export default function Nav(props: Props) {
     <div className={styles.this}>
       <ul className={props.display}>
         <NavLink name={t("nav.home")} path='/' />
-        <NavLink name={t("nav.portfolio")} path='/portafolio' />
         <NavLink name={t("nav.music")} path='/musica' />
         <NavLink name={t("nav.stuff")} path='/cosas' />
         <NavLink name={t("nav.people")} path='/gente' />
         <NavLink name={t("nav.places")} path='/lugares' />
+        <NavLink name={t("nav.portfolio")} path='/portafolio' />
       </ul>
     </div >
   )
