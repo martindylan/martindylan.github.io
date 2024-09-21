@@ -95,6 +95,14 @@
         "Coordination and general advice: Clarisa Pedrotti."
       ],
       "foot": "National Museum of the Cabildo – Buenos Aires, August 4 2023"
+    },
+    "monte": {
+      "name": "En el Monte: una experiencia del co terrar",
+      "description": [
+        "Interactive VR piece for which a team of recording, sound design, composition and music production was formed.",
+        "Currently still in development."
+      ],
+      "foot": "National University of Córdoba, May 31 2024"
     }
   },
   "music": {
@@ -318,6 +326,9 @@
     },
     "gifcities": {
       "description": "gifs search engine"
+    },
+    "gotapedal": {
+      "description": "music project from córdoba"
     },
     "hacker_news": {
       "description": "computing news"

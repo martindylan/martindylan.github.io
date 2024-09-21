@@ -7,6 +7,7 @@ import img_anhelo from './img/anhelo.jpeg';
 import img_puredata from './img/puredata.jpeg';
 import img_presupuesto from './img/presupuesto.jpeg'
 import img_agua from './img/agua.jpeg';
+import img_monte from './img/monte.jpeg';
 import { useTranslation } from 'react-i18next';
 
 export default function Cosas() {
@@ -18,6 +19,13 @@ export default function Cosas() {
       img: img_puredata,
       description: t("portfolio.puredata.description", { returnObjects: true }),
       // foot: t("portfolio.puredata.foot")
+    },
+    {
+      name: t("portfolio.monte.name"),
+      link: `https://uncinnova.unc.edu.ar/2024/05/31/en-el-monte-una-experiencia-del-co-terrar-en-realidad-virtual/`,
+      img: img_monte,
+      description: t("portfolio.monte.description", { returnObjects: true }),
+      foot: t("portfolio.monte.foot")
     },
     {
       name: t("portfolio.gest.name"),

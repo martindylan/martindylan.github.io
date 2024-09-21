@@ -155,6 +155,11 @@ export default function Lugares() {
       description: t("places.cybercirujas.description"),
       href: `https://cybercirujas.rebelion.digital/`
     },
+    {
+      title: `gota pedal`,
+      description: t("places.gotapedal.description"),
+      href: `https://gotapedal.neocities.org/`
+    },
   ]
 
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
