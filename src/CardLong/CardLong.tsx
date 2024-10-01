@@ -16,7 +16,7 @@ export default function Card(props: Props) {
   return (
     <div className={`${styles.this} ${props.right ? styles.right : ''}`}>
       <a
-        className={`${props.link ? styles.linked : ''}`}
+        className={`${props.link ? styles.linked : styles.unlinked}`}
         href={props.link}
         target='_blank'
         rel='noreferrer'
