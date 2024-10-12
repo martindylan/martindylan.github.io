@@ -200,6 +200,11 @@ export default function Gente() {
       description: t("people.yesica_duarte.description"),
       href: `https://yesicaduarte.wixsite.com/website`
     },
+    {
+      title: `cherryla`,
+      description: t("people.cherryla.description"),
+      href: `https://linktr.ee/cherryla`
+    },
   ]
 
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));

@@ -160,6 +160,11 @@ export default function Lugares() {
       description: t("places.gotapedal.description"),
       href: `https://gotapedal.neocities.org/`
     },
+    {
+      title: `mis amigas las palomas`,
+      description: t("places.malp.description"),
+      href: `https://www.misamigaslaspalomas.com/`
+    },
   ]
 
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));

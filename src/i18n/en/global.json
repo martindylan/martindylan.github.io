@@ -182,7 +182,7 @@
       "description": "multimedia artist"
     },
     "basilio_del_boca": {
-      "description": "musician, programmer and teacher"
+      "description": "programmer, teacher and musician"
     },
     "carolina_villanueva_lucero": {
       "description": "plastic and web artist"
@@ -194,10 +194,10 @@
       "description": "web artist"
     },
     "daniel_iglesia": {
-      "description": "musician and programmer"
+      "description": "programmer and musician"
     },
     "dillon_bastan": {
-      "description": "musician and programmer"
+      "description": "programmer and musician"
     },
     "durante": {
       "description": "musician"
@@ -206,31 +206,31 @@
       "description": "musician"
     },
     "eye_measure": {
-      "description": "musician and programmer"
+      "description": "programmer and musician"
     },
     "fede_camara_halac": {
-      "description": "musician and programmer"
+      "description": "programmer and musician"
     },
     "francisca_villela": {
-      "description": "musician and visual artist"
+      "description": "visual artist and musician"
     },
     "handi": {
       "description": "visual artist"
     },
     "ian_mccurdy": {
-      "description": "musician, luthier and programmer"
+      "description": "luthier, programmer and musician"
     },
     "ita": {
-      "description": "musician and fashion icon"
+      "description": "fashion icon and musician"
     },
     "jeongho_park": {
       "description": "audiovisual artist and programmer"
     },
     "jingwei_zhao": {
-      "description": "musician and ML researcher"
+      "description": "ML researcher and musician"
     },
     "julia_teles": {
-      "description": "musician and multimedia artist"
+      "description": "multimedia artist and musician"
     },
     "karen_palacios": {
       "description": "VJ and programmer"
@@ -242,16 +242,16 @@
       "description": "visual artist and game developer"
     },
     "pansy": {
-      "description": "musician and visual artist"
+      "description": "visual artist and musician"
     },
     "linus_akesson": {
-      "description": "musician, luthier and programmer"
+      "description": "luthier, programmer and musician"
     },
     "marianne_teixido": {
       "description": "multimedia artist and programmer"
     },
     "merche_blasco": {
-      "description": "musician and multimedia artist"
+      "description": "multimedia artist and musician"
     },
     "monica_jacobo": {
       "description": "visual and multimedia artist"
@@ -260,7 +260,7 @@
       "description": "multimedia artist and programmer"
     },
     "patricia_garcia": {
-      "description": "musician and teacher"
+      "description": "teacher and musician"
     },
     "pawel_janicki": {
       "description": "musician"
@@ -272,7 +272,7 @@
       "description": "sound artist and researcher"
     },
     "sol_rezza": {
-      "description": "musician and spatial audio engineer"
+      "description": "spatial audio engineer and musician"
     },
     "sukinapan": {
       "description": "visual artist and game developer"
@@ -285,6 +285,9 @@
     },
     "yesica_duarte": {
       "description": "artist and VR researcher"
+    },
+    "cherryla": {
+      "description": "graphic designer and musician"
     }
   },
   "places": {
@@ -380,6 +383,9 @@
     },
     "cybercirujas": {
       "description": "blog and forums on electronic scavenging"
+    },
+    "malp": {
+      "description": "information on rescue and care of pigeons"
     }
   }
 }
