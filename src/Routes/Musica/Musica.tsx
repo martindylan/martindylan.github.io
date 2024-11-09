@@ -7,6 +7,7 @@ import img_cibertopo from './img/cibertopo.jpeg';
 import img_moonlight from './img/moonlight.jpeg';
 import img_samba from './img/samba.jpeg';
 import img_jardines from './img/jardines.jpeg';
+import img_sorocabana from './img/sorocabana.jpeg';
 
 export default function Musica() {
   const [t, i18n] = useTranslation("global");
@@ -47,7 +48,15 @@ export default function Musica() {
         <Subtitle>prod/mix/master</Subtitle>
         <div className='Card-container top'>
           <Card
-            name='SAMBA DE VERÃO (durante remix)'
+            name='Jazmín y el pelícano - Sorocabana'
+            link='https://open.spotify.com/album/7wBbmf0riiPD4o1IliU8h9?si=ykMmzpPjTqueluL-wTYtEA'
+            description='2024 - single (prod + mix)'
+            img={img_sorocabana}
+            size='10rem'
+            bottom
+          />
+          <Card
+            name='durante - SAMBA DE VERÃO (durante remix)'
             link='https://amigosdelalima.bandcamp.com/track/samba-de-verao-durante-remix'
             description='2024 - single (mix + master)'
             img={img_samba}
