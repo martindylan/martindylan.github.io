@@ -21,7 +21,7 @@ export default function Musica() {
         <Card
             name='Jardines'
             link='https://sonidoatmosfericoediciones.bandcamp.com/album/jardines'
-            description='2024 - EP'
+            description='2024'
             img={img_jardines}
             size='10rem'
             bottom
@@ -50,7 +50,7 @@ export default function Musica() {
           <Card
             name='Jazmín y el pelícano - Sorocabana'
             link='https://open.spotify.com/album/7wBbmf0riiPD4o1IliU8h9?si=ykMmzpPjTqueluL-wTYtEA'
-            description='2024 - single (prod + mix)'
+            description='2024 (prod + mix)'
             img={img_sorocabana}
             size='10rem'
             bottom
@@ -58,7 +58,7 @@ export default function Musica() {
           <Card
             name='durante - SAMBA DE VERÃO (durante remix)'
             link='https://amigosdelalima.bandcamp.com/track/samba-de-verao-durante-remix'
-            description='2024 - single (mix + master)'
+            description='2024 (mix + master)'
             img={img_samba}
             size='10rem'
             bottom
