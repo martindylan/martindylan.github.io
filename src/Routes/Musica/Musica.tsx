@@ -17,13 +17,13 @@ export default function Musica() {
       <Title>{t("music.title")}</Title>
       <section>
         <Subtitle>{t("music.discography")}</Subtitle>
-        <div className='Card-container top'>
+        <div className='Card-container top left'>
         <Card
             name='Jardines'
             link='https://sonidoatmosfericoediciones.bandcamp.com/album/jardines'
             description='2024'
             img={img_jardines}
-            size='10rem'
+            size='9rem'
             bottom
           />
           <Card
@@ -31,7 +31,7 @@ export default function Musica() {
             link='https://dylan-martin.bandcamp.com/album/cibertopo'
             description='2022'
             img={img_cibertopo}
-            size='10rem'
+            size='9rem'
             bottom
           />
           <Card
@@ -39,28 +39,28 @@ export default function Musica() {
             link='https://dylan-martin.bandcamp.com/album/the-moonlight-shines-on-the-irises'
             description='2022'
             img={img_moonlight}
-            size='10rem'
+            size='9rem'
             bottom
           />
         </div>
       </section>
       <section>
         <Subtitle>prod/mix/master</Subtitle>
-        <div className='Card-container top'>
+        <div className='Card-container top left'>
           <Card
-            name='Jazmín y el pelícano - Sorocabana'
+            name='Sorocabana'
             link='https://open.spotify.com/album/7wBbmf0riiPD4o1IliU8h9?si=ykMmzpPjTqueluL-wTYtEA'
-            description='2024 (prod + mix)'
+            description={['Jazmín y el pelícano', '2024 (prod + mix)']}
             img={img_sorocabana}
-            size='10rem'
+            size='9rem'
             bottom
           />
           <Card
-            name='durante - SAMBA DE VERÃO (durante remix)'
+            name='SAMBA DE VERÃO (durante remix)'
             link='https://amigosdelalima.bandcamp.com/track/samba-de-verao-durante-remix'
-            description='2024 (mix + master)'
+            description={['durante', '2024 (mix + master)']}
             img={img_samba}
-            size='10rem'
+            size='9rem'
             bottom
           />
         </div>

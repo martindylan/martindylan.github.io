@@ -37,6 +37,9 @@
 .Card-container.top {
   align-items: flex-start;
 }
+.Card-container.left {
+  justify-content: flex-start;
+}
 
 .CardLong-container {
   display: block;
