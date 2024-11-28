@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.0580d6bd.css",
-    "main.js": "/static/js/main.7c141fa1.js",
+    "main.js": "/static/js/main.4aa5c235.js",
     "static/js/787.830bad67.chunk.js": "/static/js/787.830bad67.chunk.js",
     "static/media/agua.jpeg": "/static/media/agua.29cab54e18553f330e76.jpeg",
     "static/media/jardines.jpeg": "/static/media/jardines.7d051dd0a3ac3e8643d1.jpeg",
     "static/media/puredata.jpeg": "/static/media/puredata.f8a02a609589e4366c0c.jpeg",
     "static/media/presupuesto.jpeg": "/static/media/presupuesto.31b40fa025a7a68dc88b.jpeg",
     "static/media/anhelo.jpeg": "/static/media/anhelo.0d8c979c3e13dc0c5b49.jpeg",
+    "static/media/mapamundi.jpeg": "/static/media/mapamundi.4fc9f36ca43f2cb4631f.jpeg",
     "static/media/raytone.jpeg": "/static/media/raytone.54f5570ae81a2b0fc256.jpeg",
     "static/media/gest.jpeg": "/static/media/gest.f833d8fb560baeb8d3c3.jpeg",
-    "static/media/sorocabana.jpeg": "/static/media/sorocabana.6efc3f8e09e97b97538d.jpeg",
     "static/media/samba.jpeg": "/static/media/samba.5a8f792b0b6927a7a5c4.jpeg",
     "static/media/granola.png": "/static/media/granola.dd8019862a39fc378f7e.png",
     "static/media/monte.jpeg": "/static/media/monte.ead5a2187e52a62ecdbe.jpeg",
@@ -27,11 +27,11 @@
     "static/media/pullme.png": "/static/media/pullme.12c7634d22fe22235bd5.png",
     "index.html": "/index.html",
     "main.0580d6bd.css.map": "/static/css/main.0580d6bd.css.map",
-    "main.7c141fa1.js.map": "/static/js/main.7c141fa1.js.map",
+    "main.4aa5c235.js.map": "/static/js/main.4aa5c235.js.map",
     "787.830bad67.chunk.js.map": "/static/js/787.830bad67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0580d6bd.css",
-    "static/js/main.7c141fa1.js"
+    "static/js/main.4aa5c235.js"
   ]
 }
