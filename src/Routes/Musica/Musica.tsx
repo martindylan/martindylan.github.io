@@ -7,7 +7,7 @@ import img_cibertopo from './img/cibertopo.jpeg';
 import img_moonlight from './img/moonlight.jpeg';
 import img_samba from './img/samba.jpeg';
 import img_jardines from './img/jardines.jpeg';
-import img_sorocabana from './img/sorocabana.jpeg';
+import img_mapamundi from './img/mapamundi.jpeg';
 
 export default function Musica() {
   const [t, i18n] = useTranslation("global");
@@ -48,10 +48,10 @@ export default function Musica() {
         <Subtitle>prod/mix/master</Subtitle>
         <div className='Card-container top left'>
           <Card
-            name='Sorocabana'
-            link='https://open.spotify.com/album/7wBbmf0riiPD4o1IliU8h9?si=ykMmzpPjTqueluL-wTYtEA'
+            name='Mapamundi'
+            link='https://open.spotify.com/album/71BNx3BmlGl1KEikjCx3ay?si=jE4scSInSpikaTyBQKrEjw'
             description={['Jazmín y el pelícano', '2024 (prod + mix)']}
-            img={img_sorocabana}
+            img={img_mapamundi}
             size='9rem'
             bottom
           />
