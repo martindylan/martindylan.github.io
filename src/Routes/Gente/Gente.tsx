@@ -205,6 +205,11 @@ export default function Gente() {
       description: t("people.cherryla.description"),
       href: `https://linktr.ee/cherryla`
     },
+    {
+      title: `theia greenaway`,
+      description: t("people.theia_greenaway.description"),
+      href: `https://seraphimblush.neocities.org`
+    },
   ]
 
   const orderedList = list.sort((a, b) => a.title.localeCompare(b.title));
