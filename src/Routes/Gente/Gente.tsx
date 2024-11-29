@@ -206,8 +206,8 @@ export default function Gente() {
       href: `https://linktr.ee/cherryla`
     },
     {
-      title: `theia greenaway`,
-      description: t("people.theia_greenaway.description"),
+      title: `seraphim blush`,
+      description: t("people.seraphim_blush.description"),
       href: `https://seraphimblush.neocities.org`
     },
   ]
