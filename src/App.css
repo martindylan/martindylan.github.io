@@ -14,6 +14,7 @@
   flex-direction: column;
   min-height: 100vh;
 }
+
 .App main {
   flex-direction: column;
   flex-grow: 1;
@@ -23,6 +24,7 @@
 .col1 {
   color: var(--fg-col1);
 }
+
 .col2 {
   color: var(--fg-col2);
 }
@@ -34,9 +36,15 @@
   justify-content: center;
   margin-bottom: 1.5rem;
 }
+
+.Card-container div:last-child:nth-child(odd) {
+  flex-grow: 0.1;
+}
+
 .Card-container.top {
   align-items: flex-start;
 }
+
 .Card-container.left {
   justify-content: flex-start;
 }
@@ -54,13 +62,16 @@
 .d-none {
   display: none;
 }
+
 .d-flex {
   display: flex;
 }
+
 @media (min-width: 768px) {
   .d-md-flex {
     display: flex;
   }
+
   .d-md-none {
     display: none;
   }
@@ -78,6 +89,7 @@ hr {
   margin: 6px;
   text-transform: uppercase;
 }
+
 .smallButton:hover {
   cursor: pointer;
 }
@@ -87,5 +99,5 @@ main {
   height: 0;
   overflow-y: auto;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255,255,255,0.33) transparent;
+  scrollbar-color: rgba(255, 255, 255, 0.33) transparent;
 }
