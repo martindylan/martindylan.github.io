@@ -27,10 +27,15 @@ export default function Cosas() {
             description={t("stuff.web.bubblewrap.description")}
           />
           <Card
+            name={t("stuff.web.brush.name")}
+            link='https://dylanmartin.neocities.org/cosas/pincel/'
+            description={t("stuff.web.brush.description")}
+          />
+          {/* <Card
             name={t("stuff.web.polygon.name")}
             link='https://dylanmartin.neocities.org/cosas/polygon/'
             description={t("stuff.web.polygon.description")}
-          />
+          /> */}
           <Card
             name={t("stuff.web.noted.name")}
             link='https://martindylan.github.io/noted'
@@ -45,11 +50,6 @@ export default function Cosas() {
             name={t("stuff.web.flute.name")}
             link='https://dylanmartin.neocities.org/cosas/flauta/'
             description={t("stuff.web.flute.description")}
-          />
-          <Card
-            name={t("stuff.web.brush.name")}
-            link='https://dylanmartin.neocities.org/cosas/pincel/'
-            description={t("stuff.web.brush.description")}
           />
           <Card
             name={t("stuff.web.lll.name")}
