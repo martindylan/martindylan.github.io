@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3cb27ba.css",
-    "main.js": "/static/js/main.25076da9.js",
+    "main.css": "/static/css/main.6ff9c071.css",
+    "main.js": "/static/js/main.c8c1aa03.js",
     "static/js/787.830bad67.chunk.js": "/static/js/787.830bad67.chunk.js",
     "static/media/agua.jpeg": "/static/media/agua.29cab54e18553f330e76.jpeg",
     "static/media/jardines.jpeg": "/static/media/jardines.7d051dd0a3ac3e8643d1.jpeg",
@@ -10,6 +10,7 @@
     "static/media/anhelo.jpeg": "/static/media/anhelo.0d8c979c3e13dc0c5b49.jpeg",
     "static/media/mapamundi.jpeg": "/static/media/mapamundi.4fc9f36ca43f2cb4631f.jpeg",
     "static/media/raytone.jpeg": "/static/media/raytone.54f5570ae81a2b0fc256.jpeg",
+    "static/media/afuera.jpeg": "/static/media/afuera.41372f0ae1302901ba43.jpeg",
     "static/media/gest.jpeg": "/static/media/gest.f833d8fb560baeb8d3c3.jpeg",
     "static/media/samba.jpeg": "/static/media/samba.5a8f792b0b6927a7a5c4.jpeg",
     "static/media/granola.png": "/static/media/granola.dd8019862a39fc378f7e.png",
@@ -26,12 +27,12 @@
     "static/media/logo-github.png": "/static/media/logo-github.9b74c0c7e0370f96fbc4.png",
     "static/media/pullme.png": "/static/media/pullme.12c7634d22fe22235bd5.png",
     "index.html": "/index.html",
-    "main.d3cb27ba.css.map": "/static/css/main.d3cb27ba.css.map",
-    "main.25076da9.js.map": "/static/js/main.25076da9.js.map",
+    "main.6ff9c071.css.map": "/static/css/main.6ff9c071.css.map",
+    "main.c8c1aa03.js.map": "/static/js/main.c8c1aa03.js.map",
     "787.830bad67.chunk.js.map": "/static/js/787.830bad67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3cb27ba.css",
-    "static/js/main.25076da9.js"
+    "static/css/main.6ff9c071.css",
+    "static/js/main.c8c1aa03.js"
   ]
 }
