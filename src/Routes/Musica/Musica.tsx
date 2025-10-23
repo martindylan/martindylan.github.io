@@ -8,9 +8,10 @@ import img_moonlight from './img/moonlight.jpeg';
 import img_samba from './img/samba.jpeg';
 import img_jardines from './img/jardines.jpeg';
 import img_mapamundi from './img/mapamundi.jpeg';
+import img_afuera from './img/afuera.jpeg';
 
 export default function Musica() {
-  const [t, i18n] = useTranslation("global");
+  const [t, ] = useTranslation("global");
 
   return (
     <div>
@@ -47,6 +48,14 @@ export default function Musica() {
       <section>
         <Subtitle>prod/mix/master</Subtitle>
         <div className='Card-container top left'>
+          <Card
+            name='Afuera'
+            link='https://open.spotify.com/album/71BNx3BmlGl1KEikjCx3ay?si=jE4scSInSpikaTyBQKrEjw'
+            description={['las cosas que no fueron & Liria Liria', '2025 (mix assist + master)']}
+            img={img_afuera}
+            size='9rem'
+            bottom
+          />
           <Card
             name='Mapamundi'
             link='https://open.spotify.com/album/71BNx3BmlGl1KEikjCx3ay?si=jE4scSInSpikaTyBQKrEjw'
