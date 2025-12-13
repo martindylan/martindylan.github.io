@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.360c6fb9.css",
-    "main.js": "/static/js/main.c8c1aa03.js",
+    "main.js": "/static/js/main.48ccf684.js",
     "static/js/787.830bad67.chunk.js": "/static/js/787.830bad67.chunk.js",
     "static/media/agua.jpeg": "/static/media/agua.29cab54e18553f330e76.jpeg",
     "static/media/jardines.jpeg": "/static/media/jardines.7d051dd0a3ac3e8643d1.jpeg",
     "static/media/puredata.jpeg": "/static/media/puredata.f8a02a609589e4366c0c.jpeg",
     "static/media/presupuesto.jpeg": "/static/media/presupuesto.31b40fa025a7a68dc88b.jpeg",
     "static/media/anhelo.jpeg": "/static/media/anhelo.0d8c979c3e13dc0c5b49.jpeg",
+    "static/media/amores.jpeg": "/static/media/amores.ff2c3661259120e8d117.jpeg",
     "static/media/mapamundi.jpeg": "/static/media/mapamundi.4fc9f36ca43f2cb4631f.jpeg",
     "static/media/raytone.jpeg": "/static/media/raytone.54f5570ae81a2b0fc256.jpeg",
     "static/media/afuera.jpeg": "/static/media/afuera.41372f0ae1302901ba43.jpeg",
@@ -28,11 +29,11 @@
     "static/media/pullme.png": "/static/media/pullme.12c7634d22fe22235bd5.png",
     "index.html": "/index.html",
     "main.360c6fb9.css.map": "/static/css/main.360c6fb9.css.map",
-    "main.c8c1aa03.js.map": "/static/js/main.c8c1aa03.js.map",
+    "main.48ccf684.js.map": "/static/js/main.48ccf684.js.map",
     "787.830bad67.chunk.js.map": "/static/js/787.830bad67.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.360c6fb9.css",
-    "static/js/main.c8c1aa03.js"
+    "static/js/main.48ccf684.js"
   ]
 }
