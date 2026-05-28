@@ -54,13 +54,13 @@ export default function Cosas() {
       description: t("portfolio.raytone.description", { returnObjects: true }),
       foot: t("portfolio.raytone.foot")
     },
-    {
-      name: t("portfolio.presupuesto.name"),
-      link: `https://soundcloud.com/cibertopo/paisaje_sonoro_museo_documento_ascenso_carlos_ivwav/s-VHeI6xv4I6h?si=d1552917e01f4a27b9f7b50a850de0d2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
-      img: img_presupuesto,
-      description: t("portfolio.presupuesto.description", { returnObjects: true }),
-      foot: t("portfolio.presupuesto.foot")
-    },
+    // {
+    //   name: t("portfolio.presupuesto.name"),
+    //   link: `https://soundcloud.com/cibertopo/paisaje_sonoro_museo_documento_ascenso_carlos_ivwav/s-VHeI6xv4I6h?si=d1552917e01f4a27b9f7b50a850de0d2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing`,
+    //   img: img_presupuesto,
+    //   description: t("portfolio.presupuesto.description", { returnObjects: true }),
+    //   foot: t("portfolio.presupuesto.foot")
+    // },
   ];
 
   return (

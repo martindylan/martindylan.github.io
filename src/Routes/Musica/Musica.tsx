@@ -9,6 +9,8 @@ import img_samba from './img/samba.jpeg';
 import img_jardines from './img/jardines.jpeg';
 import img_mapamundi from './img/mapamundi.jpeg';
 import img_afuera from './img/afuera.jpeg';
+import img_amores from './img/amores.jpeg';
+import img_caminante from './img/caminante.jpeg';
 
 export default function Musica() {
   const [t, ] = useTranslation("global");
@@ -48,6 +50,22 @@ export default function Musica() {
       <section>
         <Subtitle>prod/mix/master</Subtitle>
         <div className='Card-container top left'>
+          <Card
+            name='Caminante'
+            link='https://open.spotify.com/album/42uXzPXcWNm9hIbcsMyes7?si=aARm4I9ETymS713c5JKmYA'
+            description={['Flaneur', '2026 (mix + master)']}
+            img={img_caminante}
+            size='9rem'
+            bottom
+          />
+          <Card
+            name='Amores No'
+            link='https://open.spotify.com/album/2HAg7BCYTH5g4l4IKYw7po?si=-cf2z4--Rdien1zMi1_a-A'
+            description={['lucia boreal & Liria Liria', '2025 (master)']}
+            img={img_amores}
+            size='9rem'
+            bottom
+          />
           <Card
             name='Afuera'
             link='https://open.spotify.com/album/71BNx3BmlGl1KEikjCx3ay?si=jE4scSInSpikaTyBQKrEjw'

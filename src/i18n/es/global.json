@@ -29,7 +29,7 @@
       },
       {
         "lines": [
-          "fan de:"
+          "fanática de:"
         ],
         "items": [
           "c o m p u t a d o r a s",
@@ -75,7 +75,7 @@
     "raytone": {
       "name": "Composición Audiovisual en Tiempo Real con RayTone",
       "description": [
-        "Becado por la Universidad de Stanford.",
+        "Becada por la Universidad de Stanford.",
         "Formación y prueba del entorno de programación RayTone, aún en desarrollo, para la composición de piezas audiovisuales utilizando ChucK y shaders HLSL.",
         "Se desarrolló una composición durante el período del workshop."
       ],
